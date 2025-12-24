@@ -48,17 +48,17 @@ document.addEventListener("mouseleave", () => {
   document.body.classList.remove("cursor-active");
 });
 
-// Smooth trailing motion
 function animateLight() {
   currentX += (mouseX - currentX) * 0.12;
   currentY += (mouseY - currentY) * 0.12;
 
   if (cursorLight) {
-    cursorLight.style.transform = `translate(${currentX}px, ${currentY}px)`;
+    cursorLight.style.left = `${currentX}px`;
+    cursorLight.style.top = `${currentY}px`;
   }
-
   requestAnimationFrame(animateLight);
 }
+
 
 
 // Filtering

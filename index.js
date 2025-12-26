@@ -8,14 +8,13 @@ const resultsMeta = document.getElementById("resultsMeta");
 
 let activeCategory = "all";
 
-// Splash: fade out on Enter
+// Splash: fade out
 function dismissSplash() {
   if (!splash) return;
   splash.classList.add("is-fading");
-  // Remove from tab order after animation starts
   enterBtn?.setAttribute("disabled", "true");
 
-  // After animation, remove from DOM so it is not clickable
+  // After animation, remove from the DOM so it is not clickable
   setTimeout(() => {
     splash.remove();
     searchInput?.focus();
@@ -32,7 +31,6 @@ document.addEventListener("keydown", (e) => {
 
 // Dynamic Cursor Effect
 const cursorLight = document.getElementById("cursor-light");
-
 let mouseX = 0;
 let mouseY = 0;
 let currentX = 0;

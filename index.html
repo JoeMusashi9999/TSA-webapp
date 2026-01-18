@@ -26,36 +26,46 @@
 
   <!-- Page -->
   <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">⌂</div>
-        <div>
-          <div class="brand-title">Community Hub</div>
-          <div class="brand-subtitle">Find local links quickly</div>
-        </div>
-      </div>
+  <div class="topbar-inner">
 
-      <div class="search-wrap">
-        <label class="sr-only" for="searchInput">Search links</label>
-        <input id="searchInput" type="search" placeholder="Search: orthopedics, Thai, tutoring, utilities..." autocomplete="off" />
+    <!-- Brand (clickable home link) -->
+    <a href="index.html" class="brand" aria-label="Go to home">
+      <div class="brand-mark" aria-hidden="true">⌂</div>
+      <div>
+        <div class="brand-title">Community Hub</div>
+        <div class="brand-subtitle">Find local links quickly</div>
       </div>
+    </a>
+
+    <!-- Search -->
+    <div class="search-wrap">
+      <label class="sr-only" for="searchInput">Search links</label>
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search: orthopedics, Thai, tutoring, utilities..."
+        autocomplete="off"
+      />
     </div>
+
+    <!-- Primary Navigation -->
     <nav aria-label="Primary">
       <a href="about.html" class="btn">About Us</a>
       <a href="contact.html" class="btn">Contact</a>
     </nav>
+
   </div>
 
-
-    <nav class="filters" aria-label="Category filters">
-      <button class="chip is-active" type="button" data-filter="all">All</button>
-      <button class="chip" type="button" data-filter="health">Health</button>
-      <button class="chip" type="button" data-filter="food">Food</button>
-      <button class="chip" type="button" data-filter="services">Services</button>
-      <button class="chip" type="button" data-filter="community">Community</button>
-      <button class="chip" type="button" data-filter="education">Education</button>
-    </nav>
-  </header>
+  <!-- Category Filters (HOME PAGE ONLY) -->
+  <nav class="filters" aria-label="Category filters">
+    <button class="chip is-active" type="button" data-filter="all">All</button>
+    <button class="chip" type="button" data-filter="health">Health</button>
+    <button class="chip" type="button" data-filter="food">Food</button>
+    <button class="chip" type="button" data-filter="services">Services</button>
+    <button class="chip" type="button" data-filter="community">Community</button>
+    <button class="chip" type="button" data-filter="education">Education</button>
+  </nav>
+</header>
 
   <main class="container">
     <section class="section">

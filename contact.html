@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Community Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">⌂</div>
+        <div>
+          <div class="brand-title">Community Hub</div>
+          <div class="brand-subtitle">Connecting people to local resources</div>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a href="index.html" class="btn">Home</a>
+        <a href="about.html" class="btn">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section class="section">
+      <h1 class="section-title">Contact Us</h1>
+      <p class="section-subtitle">
+        Have feedback, suggestions, or a resource to share? We’d love to hear from you.
+      </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section">
+      <div class="grid">
+        <article class="card" style="grid-column: span 12;">
+          <form class="card-link" aria-label="Contact form">
+            
+            <div style="display: grid; gap: 14px;">
+              <div>
+                <label for="name"><strong>Name</strong></label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Your name"
+                  required
+                  style="margin-top:6px;"
+                />
+              </div>
+
+              <div>
+                <label for="email"><strong>Email</strong></label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                  style="margin-top:6px;"
+                />
+              </div>
+
+              <div>
+                <label for="message"><strong>Message</strong></label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Tell us how we can help, or suggest a resource…"
+                  required
+                  style="margin-top:6px;"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+
+              <p style="font-size:13px;color:var(--faint);">
+                We do not collect analytics or sell data. Messages are only used to respond.
+              </p>
+            </div>
+
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <!-- Alternative Contact -->
+    <section class="section">
+      <h2 class="section-title">Other Ways to Reach Us</h2>
+      <p>
+        If forms aren’t your thing, you can also reach us by email:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:communityhub@example.com">
+          communityhub@example.com
+        </a>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>
+        Community Hub is built for and with the community. Your input helps keep it useful.
+      </p>
+    </footer>
+  </main>
+
+</body>
+</html>

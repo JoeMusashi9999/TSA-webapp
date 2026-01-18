@@ -2,20 +2,23 @@ const splash = document.getElementById("splash");
 const enterBtn = document.getElementById("enterBtn");
 
 const searchInput = document.getElementById("searchInput");
-const chips = Array.from(document.querySelectorAll(".chip"));
 const cards = Array.from(document.querySelectorAll(".card"));
 const resultsMeta = document.getElementById("resultsMeta");
 
-let activeCategory = "all";
 
-// Splash: fade out on Enter
+
+//Tagbar variables
+const tagBar = document.getElementById("tagBar");
+let activeTag = "all"; // "all" means no tag filter at all
+
+
+// Splash: fade out
 function dismissSplash() {
   if (!splash) return;
   splash.classList.add("is-fading");
-  // Remove from tab order after animation starts
   enterBtn?.setAttribute("disabled", "true");
 
-  // After animation, remove from DOM so it is not clickable
+  // After animation, remove from the DOM so it is not clickable
   setTimeout(() => {
     splash.remove();
     searchInput?.focus();
@@ -32,7 +35,6 @@ document.addEventListener("keydown", (e) => {
 
 // Dynamic Cursor Effect
 const cursorLight = document.getElementById("cursor-light");
-
 let mouseX = 0;
 let mouseY = 0;
 let currentX = 0;
@@ -75,10 +77,11 @@ function matches(card, query, category) {
   const title = normalize(card.querySelector("h3")?.textContent);
   const desc = normalize(card.querySelector("p")?.textContent);
 
-  const categoryOk = c === "all" || cardCategory === c;
-  if (!categoryOk) return false;
+  const tagOk = activeTag === "all" || tags.includes(normalize(activeTag));
+  if (!tagOk) return false;
 
   if (!q) return true;
+  
 
   // Search in title, description, tags, and category name
   return (
@@ -94,30 +97,82 @@ function updateResults() {
   let shown = 0;
 
   cards.forEach((card) => {
-    const ok = matches(card, query, activeCategory);
+    const ok = matches(card, query, "all");
     card.style.display = ok ? "" : "none";
     if (ok) shown += 1;
   });
 
+  // does all the tagging (= 
   if (resultsMeta) {
-    const q = normalize(query);
-    const catLabel = activeCategory === "all" ? "All categories" : `Category: ${activeCategory}`;
-    const queryLabel = q ? `Search: "${q}"` : "No search";
-    resultsMeta.textContent = `${shown} result(s). ${catLabel}. ${queryLabel}.`;
+  const q = normalize(query);
+  const catLabel = "All categories";
+  const tagLabel = activeTag === "all" ? "All tags" : `Tag: ${activeTag}`;
+  const queryLabel = q ? `Search: "${q}"` : "No search";
+  resultsMeta.textContent = `${shown} result(s). ${catLabel}. ${tagLabel}. ${queryLabel}.`;
   }
-}
 
-chips.forEach((chip) => {
-  chip.addEventListener("click", () => {
-    chips.forEach((c) => c.classList.remove("is-active"));
-    chip.classList.add("is-active");
-    activeCategory = chip.dataset.filter || "all";
-    updateResults();
-  });
-});
+}
 
 searchInput?.addEventListener("input", updateResults);
 
+//Tagbar functions:
+
+function splitTags(tagString) {
+  return normalize(tagString).split(/\s+/).filter(Boolean);
+}
+
+function buildTagBar() {
+  if (!tagBar) return;
+
+  // find each unique tag from all cards
+  const tagSet = new Set();
+  cards.forEach((card) => {
+    splitTags(card.dataset.tags || "").forEach((t) => tagSet.add(t));
+  });
+
+  // priority for users
+  const priority = ["restaurant", "health", "grocery", "education", "utilities"];
+  const allTags = Array.from(tagSet);
+
+  // Sorting of results: tags first (if existant), then alphabetically
+  allTags.sort((a, b) => a.localeCompare(b));
+  const ordered = [
+    ...priority.filter((t) => tagSet.has(t)),
+    ...allTags.filter((t) => !priority.includes(t)),
+  ];
+
+  // Buttons!
+  tagBar.innerHTML = "";
+
+  const makeBtn = (label, value) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "tagchip" + (activeTag === value ? " is-active" : "");
+    btn.dataset.tag = value;
+    btn.textContent = label;
+    btn.addEventListener("click", () => {
+      activeTag = (activeTag === value) ? "all" : value;
+      searchInput?.focus();
+      syncTagBarActiveState();
+      updateResults();
+    });
+    return btn;
+  };
+
+  tagBar.appendChild(makeBtn("All tags", "all"));
+  ordered.forEach((t) => tagBar.appendChild(makeBtn(t, t)));
+}
+
+function syncTagBarActiveState() {
+  if (!tagBar) return;
+  tagBar.querySelectorAll(".tagchip").forEach((btn) => {
+    btn.classList.toggle("is-active", btn.dataset.tag === activeTag);
+  });
+}
+
+
+
 // Initial state
+buildTagBar();
 updateResults();
 animateLight();

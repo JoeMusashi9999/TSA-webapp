@@ -25,23 +25,20 @@
    <div id="cursor-light"></div>
 
   <!-- Page -->
-<header class="topbar">
-  <div class="topbar-inner">
-    <div class="brand">
-      <div class="brand-mark" aria-hidden="true">⌂</div>
-      <div>
-        <div class="brand-title">Community Hub</div>
-        <div class="brand-subtitle">Find local links quickly</div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">⌂</div>
+        <div>
+          <div class="brand-title">Community Hub</div>
+          <div class="brand-subtitle">Find local links quickly</div>
+        </div>
       </div>
-    </div>
-    <div class="search-wrap">
-      <label class="sr-only" for="searchInput">Search links</label>
-      <input
-        id="searchInput"
-        type="search"
-        placeholder="Search: orthopedics, Thai, tutoring, utilities..."
-        autocomplete="off"
-      />
+
+      <div class="search-wrap">
+        <label class="sr-only" for="searchInput">Search links</label>
+        <input id="searchInput" type="search" placeholder="Search: orthopedics, Thai, tutoring, utilities..." autocomplete="off" />
+      </div>
     </div>
     <nav aria-label="Primary">
       <a href="about.html" class="btn">About Us</a>
@@ -50,22 +47,28 @@
   </div>
 
 
-  <nav class="filters" aria-label="Category filters">
-    <button class="chip is-active" type="button" data-filter="all">All</button>
-    <button class="chip" type="button" data-filter="health">Health</button>
-    <button class="chip" type="button" data-filter="food">Food</button>
-    <button class="chip" type="button" data-filter="services">Services</button>
-    <button class="chip" type="button" data-filter="community">Community</button>
-    <button class="chip" type="button" data-filter="education">Education</button>
-  </nav>
-</header>
+    <nav class="filters" aria-label="Category filters">
+      <button class="chip is-active" type="button" data-filter="all">All</button>
+      <button class="chip" type="button" data-filter="health">Health</button>
+      <button class="chip" type="button" data-filter="food">Food</button>
+      <button class="chip" type="button" data-filter="services">Services</button>
+      <button class="chip" type="button" data-filter="community">Community</button>
+      <button class="chip" type="button" data-filter="education">Education</button>
+    </nav>
+  </header>
 
   <main class="container">
     <section class="section">
       <h2 class="section-title">Quick Index</h2>
       <p class="section-subtitle">Browse by category or search. Click a card to open the site.</p>
-
+      <div class="tagbar">
+      
+        <!-- Little "Tagbar" to enable faster searching -->
+      <div class="tagbar-title">Filter by tag:</div>
+      <div id="tagBar" class="tagbar-chips" aria-label="Tag filters"></div>
+      </div>
       <div id="resultsMeta" class="results-meta" aria-live="polite"></div>
+
 
       <div id="linksGrid" class="grid" aria-label="Link results">
         <!-- HEALTH -->

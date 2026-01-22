@@ -464,3 +464,37 @@ body.cursor-active #cursor-light {
     white-space: normal;
   }
 }
+
+/* footer shenanigans */
+.footer{
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.footer-inner{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 0fr;
+  align-items: center;
+}
+
+.footer-link{
+  font-size: 13px;
+  color: var(--faint);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-link:hover{
+  color: var(--text);
+}
+
+.footer-link:first-child{
+  justify-self: start;
+}
+
+.footer-link:last-child{
+  justify-self: end;
+}

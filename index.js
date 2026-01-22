@@ -6,7 +6,6 @@ const cards = Array.from(document.querySelectorAll(".card"));
 const resultsMeta = document.getElementById("resultsMeta");
 
 
-
 //Tagbar variables
 const tagBar = document.getElementById("tagBar");
 let activeTag = "all"; // "all" means no tag filter at all

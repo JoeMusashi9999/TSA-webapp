@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page | Community Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Mercer Island Community Hub</h1>
+            <p>Local resources, services, dining, and community links in one place.</p>
+            <a href="#spotlight" class="btn btn-primary">Explore</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section id="spotlight" class="spotlight">
+            <h2>Spotlight</h2>
+            <p>Featured links, seasonal picks, and the most useful local resources.</p>
+        </section>
+
+        <section id="spotlight" class="spotlight">
+            <h2>Spotlight</h2>
+            <div class="spotlight-grid">
+                <article class="spotlight-card">
+                    <h3>Featured Dining</h3>
+                    <p>Local restaurants and cafés worth visiting this week.</p>
+                </article>
+
+                <article class="spotlight-card">
+                    <h3>Community Essentials</h3>
+                    <p>Fast access to city services, schools, and public resources.</p>
+                </article>
+
+                <article class="spotlight-card">
+                    <h3>Seasonal Picks</h3>
+                    <p>Parks, events, and activities that fit the current season.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Quick Index</h2>
+            <p class="section-subtitle">Browse by tag or search.</p>
+
+            <div class="tagbar">
+                <div class="tagbar-title">Filter by tag:</div>
+                <div id="tagBar" class="tagbar-chips" aria-label="Tag filters"></div>
+            </div>
+
+            <div id="resultsMeta" class="results-meta" aria-live="polite"></div>
+            <div id="linksGrid" class="grid" aria-label="Link results">
+                <!-- cards? -->
+            </div>
+        </section>
+    </main>
+</body>

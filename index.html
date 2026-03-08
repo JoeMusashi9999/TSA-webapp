@@ -4,202 +4,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Community Hub</title>
+  <title>Landing Page | Community Hub</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <!-- Introduction Splash Screen-->
-  <div id="splash" class="splash" role="dialog" aria-modal="true" aria-label="Welcome">
-    <div class="splash-card">
-      <h1>Community Hub</h1>
-      <p>One place for local services, food, and resources.</p>
-
-      <button id="enterBtn" class="btn btn-primary" type="button">
-        Enter
-      </button>
-
-      <p class="splash-hint">Tip: Use the search to jump fast.</p>
-    </div>
-  </div>
-  <!-- Cool Little Dynamic Cursor Effect -->
-  <div id="cursor-light"></div>
-
-  <!-- Page -->
-  <header class="topbar">
-    <div class="topbar-inner">
-
-      <!-- Brand (clickable home link) -->
-      <a href="index.html" class="brand" aria-label="Go to home">
-        <div class="brand-mark" aria-hidden="true">⌂</div>
-        <div>
-          <div class="brand-title">Community Hub</div>
-          <div class="brand-subtitle">Find local links quickly</div>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Mercer Island Community Hub</h1>
+            <p>Local resources, services, dining, and community links in one place.</p>
+            <a href="/directory.html" class="btn btn-primary">To Directory</a>
         </div>
-      </a>
-
-      <!-- Search -->
-      <div class="search-wrap">
-        <label class="sr-only" for="searchInput">Search links</label>
-        <input id="searchInput" class="input" type="search"
-          placeholder="Search: orthopedics, Thai, tutoring, utilities..." autocomplete="off" />
-      </div>
-
-      <!-- Primary Navigation -->
-      <nav class="primary-nav" aria-label="Primary">
-        <a href="about.html" class="btn">About Us</a>
-        <a href="contact.html" class="btn">Contact</a>
-      </nav>
-
-    </div>
-
-  </header>
-
-  <main class="container">
-    <section class="section">
-      <h2 class="section-title">Quick Index</h2>
-      <p class="section-subtitle">Browse by category or search. Click a card to open the site.</p>
-      <div class="tagbar">
-
-        <!-- Little "Tagbar" to enable faster searching -->
-        <div class="tagbar-title">Filter by tag:</div>
-        <div id="tagBar" class="tagbar-chips" aria-label="Tag filters"></div>
-      </div>
-      <div id="resultsMeta" class="results-meta" aria-live="polite"></div>
-
-
-      <div id="linksGrid" class="grid" aria-label="Link results">
-        <!-- HEALTH -->
-        <article class="card" data-category="health" data-tags="orthopedics doctor clinic sports medicine">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Orthopedics Clinic</h3>
-              <span class="badge">Health</span>
-            </div>
-            <p>Appointments, sports injuries, referrals.</p>
-            <div class="card-tags">
-              <span class="tag">orthopedics</span>
-              <span class="tag">clinic</span>
-              <span class="tag">sports</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="card" data-category="health" data-tags="dentist dental emergency cleaning">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Dental Care</h3>
-              <span class="badge">Health</span>
-            </div>
-            <p>Cleanings, urgent care, insurance info.</p>
-            <div class="card-tags">
-              <span class="tag">dentist</span>
-              <span class="tag">emergency</span>
-            </div>
-          </a>
-        </article>
-
-        <!-- FOOD -->
-        <article class="card" data-category="food" data-tags="thai restaurant takeout delivery noodles curry">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Local Thai Restaurant</h3>
-              <span class="badge">Food</span>
-            </div>
-            <p>Takeout menu, delivery, hours.</p>
-            <div class="card-tags">
-              <span class="tag">thai</span>
-              <span class="tag">takeout</span>
-              <span class="tag">delivery</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="card" data-category="food" data-tags="coffee cafe breakfast bakery">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Coffee and Bakery</h3>
-              <span class="badge">Food</span>
-            </div>
-            <p>Pastries, coffee, study-friendly seating.</p>
-            <div class="card-tags">
-              <span class="tag">coffee</span>
-              <span class="tag">bakery</span>
-            </div>
-          </a>
-        </article>
-
-        <!-- SERVICES -->
-        <article class="card" data-category="services" data-tags="dmv licensing registration vehicle">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Licensing and Registration</h3>
-              <span class="badge">Services</span>
-            </div>
-            <p>Appointments, required documents, renewals.</p>
-            <div class="card-tags">
-              <span class="tag">dmv</span>
-              <span class="tag">renewal</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="card" data-category="services" data-tags="utilities water power trash recycling">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Utilities Portal</h3>
-              <span class="badge">Services</span>
-            </div>
-            <p>Pay bills, report outages, service changes.</p>
-            <div class="card-tags">
-              <span class="tag">utilities</span>
-              <span class="tag">bills</span>
-            </div>
-          </a>
-        </article>
-
-        <!-- COMMUNITY -->
-        <article class="card" data-category="community" data-tags="library events volunteering meetings">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Library and Events</h3>
-              <span class="badge">Community</span>
-            </div>
-            <p>Events calendar, volunteering, room booking.</p>
-            <div class="card-tags">
-              <span class="tag">events</span>
-              <span class="tag">volunteer</span>
-            </div>
-          </a>
-        </article>
-
-        <!-- EDUCATION -->
-        <article class="card" data-category="education" data-tags="tutoring math science sat act">
-          <a class="card-link" href="https://example.com" target="_blank" rel="noopener">
-            <div class="card-top">
-              <h3>Tutoring and Test Prep</h3>
-              <span class="badge">Education</span>
-            </div>
-            <p>Local tutoring options and schedules.</p>
-            <div class="card-tags">
-              <span class="tag">tutoring</span>
-              <span class="tag">SAT</span>
-              <span class="tag">math</span>
-            </div>
-          </a>
-        </article>
-      </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        <a href="/Copyright.pdf" class="footer-link">Copyright Checklist</a>
-        <a href="/Planofwork.pdf" class="footer-link">Plan of Work</a>
-      </div>
-    </footer>
+    <main class="main-content">
+        <section id="spotlight" class="spotlight">
+            <h2>Spotlight</h2>
+            <p>Featured links, seasonal picks, and the most useful local resources.</p>
+        </section>
 
-    <script src="index.js"></script>
-    <script src="dynamicCursor.js"></script>
+        <section id="spotlight" class="spotlight">
+            <h2>Spotlight</h2>
+            <div class="spotlight-grid">
+                <article class="spotlight-card">
+                    <h3>Featured Dining</h3>
+                    <p>Local restaurants and cafés worth visiting this week.</p>
+                </article>
+
+                <article class="spotlight-card">
+                    <h3>Community Essentials</h3>
+                    <p>Fast access to city services, schools, and public resources.</p>
+                </article>
+
+                <article class="spotlight-card">
+                    <h3>Seasonal Picks</h3>
+                    <p>Parks, events, and activities that fit the current season.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Quick Index</h2>
+            <p class="section-subtitle">Browse by tag or search.</p>
+
+            <div class="tagbar">
+                <div class="tagbar-title">Filter by tag:</div>
+                <div id="tagBar" class="tagbar-chips" aria-label="Tag filters"></div>
+            </div>
+
+            <div id="resultsMeta" class="results-meta" aria-live="polite"></div>
+            <div id="linksGrid" class="grid" aria-label="Link results">
+                <!-- cards? -->
+            </div>
+        </section>
+    </main>
 </body>
-
-</html>

@@ -520,7 +520,7 @@ body.cursor-active #cursor-light {
   align-items: center;
   justify-content: center;
   padding: 0 24px;
-  background-image: url("/src/PrimarySplash.png");
+  background-image: url("./src/PrimarySplash.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

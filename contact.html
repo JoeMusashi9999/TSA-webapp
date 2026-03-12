@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body class="contact-page">
 
   <!-- Header -->
   <header class="topbar">
@@ -24,6 +24,7 @@
 
       <nav aria-label="Primary">
         <a href="index.html" class="btn">Home</a>
+        <a href="discover.html" class="btn">Discover</a>
         <a href="about.html" class="btn">About Us</a>
       </nav>
     </div>
@@ -31,58 +32,110 @@
   <!-- Cool Little Dynamic Cursor Effect -->
   <div id="cursor-light"></div>
   <main class="container">
-    <!-- Intro -->
-    <section class="section">
-      <h1 class="section-title">Contact Us</h1>
-      <p class="section-subtitle">
-        Have feedback, suggestions, or a resource to share? We’d love to hear from you.
-      </p>
+    <section class="page-hero" aria-label="Contact Community Hub">
+      <div class="page-hero-inner">
+        <div class="page-hero-copy">
+          <div class="kicker">Contact</div>
+          <h1 class="page-hero-title">Send a note</h1>
+          <p class="page-hero-subtitle">
+            Suggestions, fixes, Spotlight ideas—anything that helps the community.
+          </p>
+
+          <div class="pill-row" aria-label="Common topics">
+            <span class="pill pill-warm">Add a link</span>
+            <span class="pill pill-accent">Fix a broken page</span>
+            <span class="pill">Spotlight idea</span>
+          </div>
+        </div>
+
+        <div class="page-hero-visual" aria-hidden="true">
+          <div class="image-frame image-frame-tall">
+            <img src="src/PrimarySplash.png" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Form -->
     <section class="section">
-      <div class="grid">
-        <article class="card" style="grid-column: span 12;">
-          <form class="card-link" aria-label="Contact form">
-
-            <div style="display: grid; gap: 14px;">
+      <div class="split">
+        <div class="split-copy">
+          <div class="mini-list">
+            <div class="mini-item">
+              <div class="icon-badge icon-warm" aria-hidden="true">✦</div>
               <div>
-                <label for="name"><strong>Name</strong></label>
-                <input id="name" class="input" type="text" placeholder="Your name" required style="margin-top:6px;" />
+                <strong>Keep it short</strong>
+                <div class="muted">A link + a sentence is perfect.</div>
               </div>
-
-              <div>
-                <label for="email"><strong>Email</strong></label>
-                <input id="email" class="input" type="email" placeholder="you@example.com" required
-                  style="margin-top:6px;" />
-              </div>
-
-              <div>
-                <label for="message"><strong>Message</strong></label>
-                <textarea id="message" class="input" rows="5"
-                  placeholder="Tell us how we can help, or suggest a resource…" required
-                  style="margin-top:6px;"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">
-                Send Message
-              </button>
-
-              <p style="font-size:13px;color:var(--faint);">
-                We do not collect analytics or sell data. Messages are only used to respond.
-              </p>
             </div>
+            <div class="mini-item">
+              <div class="icon-badge icon-accent" aria-hidden="true">⛭</div>
+              <div>
+                <strong>We’ll update it</strong>
+                <div class="muted">Broken links, wrong info, typos—fixed.</div>
+              </div>
+            </div>
+            <div class="mini-item">
+              <div class="icon-badge" aria-hidden="true">☾</div>
+              <div>
+                <strong>Friendly + private</strong>
+                <div class="muted">No creepy tracking. Just replies.</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          </form>
-        </article>
+        <div class="split-visual">
+          <article class="card span-12">
+            <form class="card-link" aria-label="Contact form">
+
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="name"><strong>Name</strong></label>
+                  <input id="name" class="input" type="text" placeholder="Your name" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="email"><strong>Email</strong></label>
+                  <input id="email" class="input" type="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="form-field">
+                  <label for="topic"><strong>Topic</strong></label>
+                  <select id="topic" class="input">
+                    <option value="suggest">Suggest a resource</option>
+                    <option value="issue">Report a broken link / issue</option>
+                    <option value="spotlight">Weekly Spotlight idea</option>
+                    <option value="feedback">General feedback</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="message"><strong>Message</strong></label>
+                  <textarea id="message" class="input input-textarea" rows="6"
+                    placeholder="Drop the link + what you’d like us to know." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  Send
+                </button>
+
+                <p class="helptext">
+                  No tracking, no selling data—just a reply if you want one.
+                </p>
+              </div>
+
+            </form>
+          </article>
+        </div>
       </div>
     </section>
 
     <!-- Alternative Contact -->
     <section class="section">
-      <h2 class="section-title">Other Ways to Reach Us</h2>
+      <h2 class="section-title">Prefer email?</h2>
       <p>
-        If forms aren’t your thing, you can also reach us by email:
+        Totally fair—send a message any time.
       </p>
       <p>
         <strong>Email:</strong>
@@ -94,7 +147,7 @@
 
     <footer class="footer">
       <p>
-        Community Hub is built for and with the community. Your input helps keep it useful.
+        Thanks for helping keep Community Hub friendly, accurate, and useful.
       </p>
     </footer>
   </main>

@@ -95,4 +95,4 @@ def enrich_csv(input_csv: str, output_csv: str):
 
 
 if __name__ == "__main__":
-    enrich_csv("/home/derekb/Documents/Git Repos/TSA-webapp/src/Dataset.csv", "/home/derekb/Documents/Git Repos/TSA-webapp/src/mercer_island_places_geocoded.csv")
+    enrich_csv("/home/derekb/Documents/Git Repos/TSA-webapp/src/Dataset.csv", "/home/derekb/Documents/Git Repos/TSA-webapp/src/Dataset.csv")

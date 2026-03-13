@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Place | Community Hub</title>
+    <!--there is some styling that needs to be handled by dedicated css, thats why two are being loaded. Still scuffed. need to fix after rowing sorry.-->
+    <link rel="stylesheet" href="contribute.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <div class="brand">
+                <div class="brand-mark">⌂</div>
+                <div>
+                    <div class="brand-title">Community Hub</div>
+                    <div class="brand-subtitle">Dataset entry form</div>
+                </div>
+            </div>
+
+            <div></div>
+
+            <div class="top-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="directory.html">Directory</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="hero">
+            <h1>Add or Edit a Place</h1>
+            <p>
+                Use this form to create a structured entry for the place dataset. Keep tags concise,
+                descriptions readable, and coordinates verified.
+            </p>
+        </section>
+
+        <form class="form-shell">
+            <div class="form-grid">
+
+                <section class="section-card">
+                    <h2>Core Identity</h2>
+                    <p>Basic naming and classification fields.</p>
+                    <div class="fields">
+                        <div class="field full">
+                            <label for="title">Title</label>
+                            <input id="title" name="title" class="input" type="text" placeholder="Mioposto" />
+                        </div>
+
+                        <div class="field">
+                            <label for="category">Category</label>
+                            <input id="category" name="category" class="input" type="text" placeholder="Restaurant" />
+                        </div>
+
+                        <div class="field">
+                            <label for="subcategory">Subcategory</label>
+                            <input id="subcategory" name="subcategory" class="input" type="text"
+                                placeholder="Italian" />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card">
+                    <h2>Descriptions and Search</h2>
+                    <p>These fields drive display text, filtering, and future recommendation logic.</p>
+                    <div class="fields">
+                        <div class="field full">
+                            <label for="description">Description</label>
+                            <textarea id="description" name="description" class="input"
+                                placeholder="Full descriptive summary of the place."></textarea>
+                        </div>
+
+                        <div class="field full">
+                            <label for="short_description">Short Description</label>
+                            <textarea id="short_description" name="short_description" class="input"
+                                placeholder="Short card-friendly summary."></textarea>
+                        </div>
+
+                        <div class="field full">
+                            <label for="tags">Tags</label>
+                            <input id="tags" name="tags" class="input" type="text"
+                                placeholder="pizza|restaurant|takeout|family-friendly" />
+                            <div class="hint">Use pipe separators for tags.</div>
+                        </div>
+
+                        <div class="field full">
+                            <label for="review_summary">Review Summary</label>
+                            <textarea id="review_summary" name="review_summary" class="input"
+                                placeholder="Condensed sentiment summary based on reviews or editorial notes."></textarea>
+                        </div>
+
+                        <div class="field full">
+                            <label for="review_keywords">Review Keywords</label>
+                            <input id="review_keywords" name="review_keywords" class="input" type="text"
+                                placeholder="friendly service|quick takeout|good portions" />
+                        </div>
+
+                        <div class="field">
+                            <label for="rating_estimate">Rating Estimate</label>
+                            <input id="rating_estimate" name="rating_estimate" class="input" type="number" step="0.1"
+                                min="0" max="5" placeholder="4.4" />
+                        </div>
+
+                        <div class="field">
+                            <label for="review_count_estimate">Review Count Estimate</label>
+                            <input id="review_count_estimate" name="review_count_estimate" class="input" type="number"
+                                min="0" placeholder="128" />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card">
+                    <h2>Location and Contact</h2>
+                    <p>Structured location fields for map display and proximity logic.</p>
+                    <div class="fields">
+                        <div class="field full">
+                            <label for="address">Address</label>
+                            <input id="address" name="address" class="input" type="text"
+                                placeholder="Mercer Island, WA" />
+                        </div>
+
+                        <div class="field">
+                            <label for="city">City</label>
+                            <input id="city" name="city" class="input" type="text" placeholder="Mercer Island" />
+                        </div>
+
+                        <div class="field">
+                            <label for="state">State</label>
+                            <input id="state" name="state" class="input" type="text" placeholder="WA" />
+                        </div>
+
+                        <div class="field">
+                            <label for="zip">ZIP</label>
+                            <input id="zip" name="zip" class="input" type="text" placeholder="98040" />
+                        </div>
+
+                        <div class="field">
+                            <label for="latitude">Latitude</label>
+                            <input id="latitude" name="latitude" class="input" type="number" step="any"
+                                placeholder="47.57" />
+                        </div>
+
+                        <div class="field">
+                            <label for="longitude">Longitude</label>
+                            <input id="longitude" name="longitude" class="input" type="number" step="any"
+                                placeholder="-122.22" />
+                        </div>
+
+                        <div class="field">
+                            <label for="website">Website</label>
+                            <input id="website" name="website" class="input" type="url"
+                                placeholder="https://example.com" />
+                        </div>
+
+                        <div class="field">
+                            <label for="phone">Phone</label>
+                            <input id="phone" name="phone" class="input" type="tel" placeholder="(206) 555-1234" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="image">Image</label>
+                            <input id="image" name="image" class="input" type="text"
+                                placeholder="images/mioposto.jpg" />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card">
+                    <h2>Scoring and Attributes</h2>
+                    <p>Lightweight structured fields for sorting, filtering, and featured recommendations.</p>
+                    <div class="fields">
+                        <div class="field">
+                            <label for="popularity_score">Popularity Score</label>
+                            <input id="popularity_score" name="popularity_score" class="input" type="number" min="0"
+                                placeholder="82" />
+                        </div>
+
+                        <div class="field">
+                            <label for="price_level">Price Level</label>
+                            <select id="price_level" name="price_level" class="input">
+                                <option value="">Select price level</option>
+                                <option value="1">$</option>
+                                <option value="2">$$</option>
+                                <option value="3">$$$</option>
+                                <option value="4">$$$$</option>
+                            </select>
+                        </div>
+
+                        <div class="field full">
+                            <label>Attributes</label>
+                            <div class="checkbox-row">
+                                <label class="check">
+                                    <input type="checkbox" name="family_friendly" />
+                                    <span>Family Friendly</span>
+                                </label>
+
+                                <label class="check">
+                                    <input type="checkbox" name="outdoor" />
+                                    <span>Outdoor</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="field full">
+                            <label for="seasonal_tags">Seasonal Tags</label>
+                            <input id="seasonal_tags" name="seasonal_tags" class="input" type="text"
+                                placeholder="summer|winter|holiday" />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-card">
+                    <h2>Hours</h2>
+                    <p>Enter hours in a consistent, readable format like 8:00 AM – 5:00 PM or Closed.</p>
+                    <div class="hours-grid">
+                        <div class="field full">
+                            <label for="SUNDAYhours">Sunday Hours</label>
+                            <input id="SUNDAYhours" name="SUNDAYhours" class="input" type="text" placeholder="Closed" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="MONDAYhours">Monday Hours</label>
+                            <input id="MONDAYhours" name="MONDAYhours" class="input" type="text"
+                                placeholder="8:00 AM – 5:00 PM" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="TUESDAYhours">Tuesday Hours</label>
+                            <input id="TUESDAYhours" name="TUESDAYhours" class="input" type="text"
+                                placeholder="8:00 AM – 5:00 PM" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="WEDNESDAYhours">Wednesday Hours</label>
+                            <input id="WEDNESDAYhours" name="WEDNESDAYhours" class="input" type="text"
+                                placeholder="8:00 AM – 5:00 PM" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="THURSDAYhours">Thursday Hours</label>
+                            <input id="THURSDAYhours" name="THURSDAYhours" class="input" type="text"
+                                placeholder="8:00 AM – 5:00 PM" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="FRIDAYhours">Friday Hours</label>
+                            <input id="FRIDAYhours" name="FRIDAYhours" class="input" type="text"
+                                placeholder="8:00 AM – 5:00 PM" />
+                        </div>
+
+                        <div class="field full">
+                            <label for="SATURDAYhours">Saturday Hours</label>
+                            <input id="SATURDAYhours" name="SATURDAYhours" class="input" type="text"
+                                placeholder="10:00 AM – 3:00 PM" />
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="actions">
+                <button type="reset" class="btn">Clear</button>
+                <button type="submit" class="btn btn-primary">Save Entry</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+.page{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+}
+
+.form-shell{
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+.form-grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+}
+
+.section-card{
+  grid-column: span 12;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 20px;
+  padding: 18px;
+}
+
+.section-card h2{
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.section-card p{
+  color: var(--faint);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.fields{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.field{
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.field.full{
+  grid-column: span 12;
+}
+
+.field.third{
+  grid-column: span 4;
+}
+
+.field.quarter{
+  grid-column: span 3;
+}
+
+.check-row,
+.checkbox-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-top: 6px;
+}
+
+.check{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+  border-radius: 14px;
+  color: var(--muted);
+}
+
+.check input{
+  accent-color: var(--accent);
+}
+
+.hours-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.actions{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.hint{
+  font-size: 12px;
+  color: var(--faint);
+  margin-top: 4px;
+}
+
+@media (max-width: 900px){
+  .field,
+  .field.third,
+  .field.quarter{
+    grid-column: span 12;
+  }
+
+  .hours-grid{
+    grid-template-columns: 1fr;
+  }
+}

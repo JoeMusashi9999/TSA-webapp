@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover | Community Hub</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="discover-page">
+  <!-- Cool Little Dynamic Cursor Effect -->
+  <div id="cursor-light"></div>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Go to home">
+        <div class="brand-mark" aria-hidden="true">⌂</div>
+        <div>
+          <div class="brand-title">Community Hub</div>
+          <div class="brand-subtitle">Find local links quickly</div>
+        </div>
+      </a>
+
+      <div class="search-wrap discover-search">
+        <label class="sr-only" for="discoverSearch">Search communities</label>
+        <input id="discoverSearch" class="input" type="search" placeholder="Search: parks, cafés, bookstores..." />
+      </div>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html" class="btn">Home</a>
+        <a href="discover.html" class="btn is-active" aria-current="page">Discover</a>
+        <a href="about.html" class="btn">About Us</a>
+        <a href="contact.html" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="weekly-spotlight">
+      <h1 class="weekly-spotlight-title">Weekly Spotlight</h1>
+
+      
+
+      <p class="weekly-spotlight-note">
+        Explore local favorites, hidden gems, and trending spots — all in one place.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>
+        New spotlights rotate weekly. Want your community featured? Send a suggestion through our contact page.
+      </p>
+    </footer>
+  </main>
+
+  <div id="spotlightModal" class="modal" hidden>
+    <div class="modal-backdrop" data-action="close-modal" aria-hidden="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-action="close-modal" aria-label="Close details">
+        ✕
+      </button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img id="modalImg" alt="" />
+        </div>
+        <div class="modal-body">
+          <h2 id="modalTitle" class="modal-title"></h2>
+          <p id="modalDesc" class="modal-desc"></p>
+          <p id="modalLong" class="modal-long"></p>
+
+          <div id="modalTags" class="modal-tags" aria-label="Tags"></div>
+
+          <div class="modal-actions" aria-label="Quick links">
+            <a id="modalPrimary" class="btn btn-primary modal-primary" href="directory.html">Open in Directory</a>
+            <div id="modalLinks" class="modal-links"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../javascript/dynamicCursor.js"></script>
+  <script src="../javascript/discover.js"></script>
+</body>
+
+</html>

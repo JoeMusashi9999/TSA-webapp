@@ -84,32 +84,8 @@
                         <div class="field full">
                             <label for="tags">Tags</label>
                             <input id="tags" name="tags" class="input" type="text"
-                                placeholder="pizza|restaurant|takeout|family-friendly" />
-                            <div class="hint">Use pipe separators for tags.</div>
-                        </div>
-
-                        <div class="field full">
-                            <label for="review_summary">Review Summary</label>
-                            <textarea id="review_summary" name="review_summary" class="input"
-                                placeholder="Condensed sentiment summary based on reviews or editorial notes."></textarea>
-                        </div>
-
-                        <div class="field full">
-                            <label for="review_keywords">Review Keywords</label>
-                            <input id="review_keywords" name="review_keywords" class="input" type="text"
-                                placeholder="friendly service|quick takeout|good portions" />
-                        </div>
-
-                        <div class="field">
-                            <label for="rating_estimate">Rating Estimate</label>
-                            <input id="rating_estimate" name="rating_estimate" class="input" type="number" step="0.1"
-                                min="0" max="5" placeholder="4.4" />
-                        </div>
-
-                        <div class="field">
-                            <label for="review_count_estimate">Review Count Estimate</label>
-                            <input id="review_count_estimate" name="review_count_estimate" class="input" type="number"
-                                min="0" placeholder="128" />
+                                placeholder="pizza, restaurant, takeout, family-friendly" />
+                            <div class="hint">Use ", " separators for tags.</div>
                         </div>
                     </div>
                 </section>
@@ -122,21 +98,6 @@
                             <label for="address">Address</label>
                             <input id="address" name="address" class="input" type="text"
                                 placeholder="Mercer Island, WA" />
-                        </div>
-
-                        <div class="field">
-                            <label for="city">City</label>
-                            <input id="city" name="city" class="input" type="text" placeholder="Mercer Island" />
-                        </div>
-
-                        <div class="field">
-                            <label for="state">State</label>
-                            <input id="state" name="state" class="input" type="text" placeholder="WA" />
-                        </div>
-
-                        <div class="field">
-                            <label for="zip">ZIP</label>
-                            <input id="zip" name="zip" class="input" type="text" placeholder="98040" />
                         </div>
 
                         <div class="field">
@@ -203,13 +164,17 @@
                                     <input type="checkbox" name="outdoor" />
                                     <span>Outdoor</span>
                                 </label>
+                                <label class="check">
+                                    <input type="checkbox" name="pet_friendly" />
+                                    <span>Pet Friendly</span>
+                                </label>
                             </div>
                         </div>
 
                         <div class="field full">
                             <label for="seasonal_tags">Seasonal Tags</label>
                             <input id="seasonal_tags" name="seasonal_tags" class="input" type="text"
-                                placeholder="summer|winter|holiday" />
+                                placeholder="summer, winter, holiday" />
                         </div>
                     </div>
                 </section>

@@ -164,7 +164,7 @@ function syncTagBarActiveState() {
 // load data from file (=
 async function loadPlaces() {
   try {
-    const response = await fetch("./data/directory.json");
+    const response = await fetch("./src/directory.json");
     console.log("Fetch response:", response);
 
     if (!response.ok) {

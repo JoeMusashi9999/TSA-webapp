@@ -1,6 +1,3 @@
-const splash = document.getElementById("splash");
-const enterBtn = document.getElementById("enterBtn");
-
 const searchInput = document.getElementById("searchInput");
 const linksGrid = document.getElementById("linksGrid");
 const resultsMeta = document.getElementById("resultsMeta");
@@ -167,24 +164,25 @@ function syncTagBarActiveState() {
 // load data from file (=
 async function loadPlaces() {
   try {
-    // Adjust this path if your JSON lives somewhere else
-    const response = await fetch("./data/places.json");
+    const response = await fetch("./data/directory.json");
+    console.log("Fetch response:", response);
 
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
 
     const data = await response.json();
+    console.log("Loaded JSON:", data);
 
     if (!Array.isArray(data)) {
-      throw new Error("places.json is not an array");
+      throw new Error("directory.json is not an array");
     }
 
     places = data;
     buildTagBar();
     renderPlaces();
   } catch (err) {
-    console.error("Failed to load places.json:", err);
+    console.error("Failed to load directory.json:", err);
 
     if (resultsMeta) {
       resultsMeta.textContent = "Failed to load directory data.";

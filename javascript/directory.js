@@ -72,6 +72,7 @@ function createCard(place) {
   const safeCategory = escapeHtml(place.category || "Uncategorized");
   const safeDescription = escapeHtml(place.short_description || "");
   const url = `./place.html?id=${encodeURIComponent(place.id)}`;
+  console.log(place.id);
   const visibleTags = splitTags(place.tags).slice(0, 3);
 
   article.innerHTML = `
@@ -163,7 +164,7 @@ function syncTagBarActiveState() {
 // load data from file (=
 async function loadPlaces() {
   try {
-    const response = await fetch("./src/directory.json");
+    const response = await fetch("./src/place.json");
     console.log("Fetch response:", response);
 
     if (!response.ok) {

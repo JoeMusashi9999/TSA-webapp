@@ -71,12 +71,11 @@ function createCard(place) {
   const safeTitle = escapeHtml(place.title || "Untitled");
   const safeCategory = escapeHtml(place.category || "Uncategorized");
   const safeDescription = escapeHtml(place.short_description || "");
-  const url = place.website && String(place.website).trim() ? place.website.trim() : "#";
-
+  const url = `./place.html?id=${encodeURIComponent(place.id)}`;
   const visibleTags = splitTags(place.tags).slice(0, 3);
 
   article.innerHTML = `
-    <a class="card-link" href="${escapeHtml(url)}" ${url !== "#" ? 'target="_blank" rel="noopener"' : ""}>
+    <a class="card-link" href="${url}">
       <div class="card-top">
         <h3>${safeTitle}</h3>
         <span class="badge">${safeCategory}</span>

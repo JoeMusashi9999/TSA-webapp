@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Place | Community Hub</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div id="cursor-light"></div>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" aria-label="Go to home">
+        <div class="brand-mark" aria-hidden="true">⌂</div>
+        <div>
+          <div class="brand-title">Community Hub</div>
+          <div class="brand-subtitle">Place details</div>
+        </div>
+      </a>
+
+      <div></div>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="discover.html" class="btn">Discover</a>
+        <a href="about.html" class="btn">About Us</a>
+        <a href="contact.html" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="placePage" class="section">
+      <p id="placeStatus" class="section-subtitle">Loading place details...</p>
+    </section>
+  </main>
+
+  <script src="./javascript/place.js"></script>
+  <script src="./javascript/dynamicCursor.js"></script>
+</body>
+</html>

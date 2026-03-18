@@ -1,12 +1,10 @@
-// curated
-const SPOTLIGHT_PRIMARY = ["mi001", "mi014", "mi032"];
-const SPOTLIGHT_FOOD = ["mi001", "mi008", "mi021"];
-const SPOTLIGHT_COMMUNITY = ["mi071", "mi093", "mi104"];
+//curated buisnesses!
+const SPOTLIGHT_PRIMARY = ["mi_001", "mi_014", "mi_032"];
+const SPOTLIGHT_FOOD = ["mi_001", "mi_008", "mi_021"];
+const SPOTLIGHT_COMMUNITY = ["mi_071", "mi_093", "mi_104"];
 
-// data
+//modal/template elements:
 let places = [];
-
-// template/modal load
 const spotlightGrid = document.getElementById("spotlightGrid");
 
 const spotlightModal = document.getElementById("spotlightModal");
@@ -19,7 +17,8 @@ const modalHours = document.getElementById("modalHours");
 const modalPlaceLink = document.getElementById("modalPlaceLink");
 const modalWebsiteLink = document.getElementById("modalWebsiteLink");
 
-// helpers
+
+// helper functions for the modals
 function normalize(str) {
   return (str || "").toLowerCase().trim();
 }
@@ -78,8 +77,30 @@ function formatHours(place) {
     ["Saturday", place.SATURDAYhours],
   ];
 }
+// data loading
+async function loadPlaces() {
+  try {
+    const response = await fetch("./src/place.json");
 
-// modal content
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (!Array.isArray(data)) {
+      throw new Error("place.json is not an array");
+    }
+
+    places = data;
+    console.log("Sample IDs:", places.slice(0, 10).map(p => p.id));
+    console.log("Loaded spotlight places:", places.length);
+    renderSpotlights();
+  } catch (err) {
+    console.error("Failed to load place.json:", err);
+  }
+}
+
 function openSpotlightModal(place) {
   if (!spotlightModal || !place) return;
 
@@ -105,7 +126,9 @@ function openSpotlightModal(place) {
       `).join("")
     : `<p class="modal-meta">No hours available.</p>`;
 
-  modalPlaceLink.href = `./place.html?id=${encodeURIComponent(place.id)}`;
+  modalPlaceLink.href = place.id
+    ? `./place.html?id=${encodeURIComponent(place.id)}`
+    : "#";
 
   if (place.website && String(place.website).trim()) {
     const href = /^https?:\/\//i.test(place.website.trim())
@@ -129,10 +152,13 @@ function closeSpotlightModal() {
   document.body.classList.remove("modal-open");
 }
 
-// spotlight rendering
+//content:
 function createSpotlightCard(place) {
   const article = document.createElement("article");
   article.className = "spotlight-tile";
+  article.setAttribute("role", "button");
+  article.setAttribute("tabindex", "0");
+  article.setAttribute("aria-label", `View details for ${place.title || "Untitled"}`);
 
   const safeTitle = escapeHtml(place.title || "Untitled");
   const safeDescription = escapeHtml(place.short_description || "");
@@ -141,73 +167,69 @@ function createSpotlightCard(place) {
     : "./src/PrimarySplash.png";
 
   const visibleTags = splitTags(place.tags).slice(0, 3);
+  const placeHref = place.id
+    ? `./place.html?id=${encodeURIComponent(place.id)}`
+    : "#";
 
   article.innerHTML = `
-    <a class="spotlight-tile-link" href="./place.html?id=${encodeURIComponent(place.id)}" aria-label="Open: ${safeTitle}">
-      <div class="spotlight-media">
-        <img src="${escapeHtml(safeImage)}" alt="${safeTitle}" loading="lazy" />
+    <div class="spotlight-media">
+      <img src="${escapeHtml(safeImage)}" alt="${safeTitle}" loading="lazy" />
+    </div>
+    <div class="spotlight-body">
+      <h2 class="spotlight-name">${safeTitle}</h2>
+      <p class="spotlight-desc">${safeDescription}</p>
+      <div class="spotlight-meta" aria-label="Tags">
+        ${visibleTags.map(tag => `<span class="spotlight-tag">${escapeHtml(tag)}</span>`).join("")}
       </div>
-      <div class="spotlight-body">
-        <h2 class="spotlight-name">${safeTitle}</h2>
-        <p class="spotlight-desc">${safeDescription}</p>
-        <div class="spotlight-meta" aria-label="Tags">
-          ${visibleTags.map(tag => `<span class="spotlight-tag">${escapeHtml(tag)}</span>`).join("")}
-        </div>
-        <button class="spotlight-cta-btn" type="button" data-place-id="${escapeHtml(place.id)}" aria-haspopup="dialog">
-          [ View Details ]
-        </button>
-      </div>
-    </a>
+      <a class="spotlight-cta-link" href="${placeHref}">
+        [ Open Page ]
+      </a>
+    </div>
   `;
 
-  const button = article.querySelector(".spotlight-cta-btn");
-
-  button.addEventListener("click", (e) => {
-    e.preventDefault();
-    e.stopPropagation();
+  article.addEventListener("click", () => {
     openSpotlightModal(place);
+  });
+
+  article.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      openSpotlightModal(place);
+    }
+  });
+
+  const directLink = article.querySelector(".spotlight-cta-link");
+  directLink?.addEventListener("click", (e) => {
+    e.stopPropagation();
   });
 
   return article;
 }
-
+//spotlight builder:
 function renderSpotlights() {
   if (!spotlightGrid) return;
 
   spotlightGrid.innerHTML = "";
 
   const spotlightPlaces = SPOTLIGHT_PRIMARY
-    .map(getPlaceById)
+    .map((id) => {
+      const place = getPlaceById(id);
+      if (!place) {
+        console.warn(`Spotlight ID not found in JSON: ${id}`);
+      }
+      return place;
+    })
     .filter(Boolean);
-
+  if (!spotlightPlaces.length) {
+    spotlightGrid.innerHTML = `<p class="section-subtitle">No spotlight places available right now.</p>`;
+    return;
+  }
   spotlightPlaces.forEach((place) => {
     spotlightGrid.appendChild(createSpotlightCard(place));
   });
 }
 
-// data loading
-async function loadPlaces() {
-  try {
-    const response = await fetch("./src/place.json"); // change path if needed
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    const data = await response.json();
-
-    if (!Array.isArray(data)) {
-      throw new Error("place.json is not an array");
-    }
-
-    places = data;
-    renderSpotlights();
-  } catch (err) {
-    console.error("Failed to load spotlight data:", err);
-  }
-}
-
-// event listners
+//misc event listners
 modalCloseBtn?.addEventListener("click", closeSpotlightModal);
 
 spotlightModal?.addEventListener("click", (e) => {
@@ -221,6 +243,5 @@ document.addEventListener("keydown", (e) => {
     closeSpotlightModal();
   }
 });
-
-// init
+//init 
 loadPlaces();

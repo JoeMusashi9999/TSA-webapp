@@ -71,7 +71,7 @@ function renderPlace(place) {
         <div>
           <p class="section-subtitle">${escapeHtml(place.category || "Uncategorized")} · ${escapeHtml(place.subcategory || "")}</p>
           <h1 class="section-title">${escapeHtml(place.title || "Untitled")}</h1>
-          <p class="place-short">${escapeHtml(place.short_description || "")}</p>
+          <p class="place-short">${escapeHtml(place.description || "")}</p>
         </div>
 
         <div class="place-actions">

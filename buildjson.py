@@ -25,6 +25,9 @@ def to_int(value):
 def to_bool(value):
     return str(value).strip().lower() in ["true", "1", "yes"]
 
+def normalize_key(key):
+    return re.sub(r"[^a-z0-9]", "", (key or "").strip().lower())
+
 def split_tags(tag_string):
     raw = clean(tag_string).lower()
     if not raw:
@@ -51,9 +54,11 @@ def main():
 
     with INPUT_CSV.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
+        print(reader.fieldnames)
 
         for i, row in enumerate(reader, start=1):
             title = clean(row.get("title"))
+            normalized_row = {normalize_key(k): v for k, v in row.items()}
             if not title:
                 continue
 
@@ -84,14 +89,14 @@ def main():
                 "family_friendly": to_bool(row.get("family_friendly")),
                 "outdoor": to_bool(row.get("outdoor")),
                 "hours": {
-                    "sunday": clean(row.get("SUNDAYhours")),
-                    "monday": clean(row.get("MONDAYhours")),
-                    "tuesday": clean(row.get("TUESDAYhours")),
-                    "wednesday": clean(row.get("WEDNESDAYhours")),
-                    "thursday": clean(row.get("THURSDAYhours")),
-                    "friday": clean(row.get("FRIDAYhours")),
-                    "saturday": clean(row.get("SATURDAYhours")),
-                },
+                    "sunday": clean(normalized_row.get("sundayhours")),
+                    "monday": clean(normalized_row.get("mondayhours")),
+                    "tuesday": clean(normalized_row.get("tuesdayhours")),
+                    "wednesday": clean(normalized_row.get("wednesdayhours")),
+                    "thursday": clean(normalized_row.get("thursdayhours")),
+                    "friday": clean(normalized_row.get("fridayhours")),
+                    "saturday": clean(normalized_row.get("saturdayhours")),
+                    },
             }
 
             places.append(place)

@@ -36,13 +36,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-9:00pm",
+      "monday": "11:30am-9:00pm",
+      "tuesday": "11:30am-9:00pm",
+      "wednesday": "11:30am-9:00pm",
+      "thursday": "11:30am-9:00pm",
+      "friday": "11:30am-9:00pm",
+      "saturday": "10:00am-9:00pm"
     }
   },
   {
@@ -80,13 +80,13 @@
     "family_friendly": false,
     "outdoor": true,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-10:00pm",
+      "monday": "3:00pm-10:00pm",
+      "tuesday": "11:00am-10:00pm",
+      "wednesday": "11:00am-12:00am",
+      "thursday": "11:00am-12:00am",
+      "friday": "11:00am-12:00am",
+      "saturday": "11:00am-12:00am"
     }
   },
   {
@@ -122,13 +122,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "11:30am-8:30pm",
+      "tuesday": "11:30am-8:30pm",
+      "wednesday": "11:30am-8:30pm",
+      "thursday": "11:30am-8:30pm",
+      "friday": "11:30am-9:00pm",
+      "saturday": "11:30am-9:00pm"
     }
   },
   {
@@ -163,13 +163,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "12:00pm-9:00pm",
+      "monday": "11:00am-9:00pm",
+      "tuesday": "11:00am-9:00pm",
+      "wednesday": "11:00am-9:00pm",
+      "thursday": "11:00am-9:00pm",
+      "friday": "11:00am-9:30pm",
+      "saturday": "12:00pm-9:30pm"
     }
   },
   {
@@ -205,13 +205,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "11:00am-7:00pm",
+      "tuesday": "11:00am-7:00pm",
+      "wednesday": "11:00am-7:00pm",
+      "thursday": "11:00am-7:00pm",
+      "friday": "11:00am-7:00pm",
+      "saturday": "11:00am-6:00pm"
     }
   },
   {
@@ -247,13 +247,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "3:00pm-9:00pm",
+      "wednesday": "3:00pm-9:00pm",
+      "thursday": "3:00pm-9:00pm",
+      "friday": "3:00pm-10:00pm",
+      "saturday": "1:00pm-10:00pm"
     }
   },
   {
@@ -293,13 +293,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-9:00pm",
+      "monday": "11:30am-9:00pm",
+      "tuesday": "11:30am-9:00pm",
+      "wednesday": "11:30am-10:00pm",
+      "thursday": "11:30am-10:00pm",
+      "friday": "11:30am-10:00pm",
+      "saturday": "10:00am-10:00pm"
     }
   },
   {
@@ -337,13 +337,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-8:00pm",
+      "monday": "11:00am-9:00pm",
+      "tuesday": "11:00am-9:00pm",
+      "wednesday": "11:00am-9:00pm",
+      "thursday": "11:00am-9:00pm",
+      "friday": "11:00am-9:00pm",
+      "saturday": "11:00am-9:00pm"
     }
   },
   {
@@ -381,13 +381,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "5:00pm-9:00pm",
+      "monday": "Closed",
+      "tuesday": "11:30am-9:00pm",
+      "wednesday": "11:30am-9:00pm",
+      "thursday": "11:30am-9:00pm",
+      "friday": "11:30am-9:30pm",
+      "saturday": "12:00pm-9:30pm"
     }
   },
   {
@@ -421,13 +421,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "9:00am-3:00pm",
+      "monday": "8:00am-4:00pm",
+      "tuesday": "8:00am-4:00pm",
+      "wednesday": "8:00am-4:00pm",
+      "thursday": "8:00am-4:00pm",
+      "friday": "8:00am-4:00pm",
+      "saturday": "8:00am-3:00pm"
     }
   },
   {
@@ -463,13 +463,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-7:00pm",
+      "monday": "11:00am-8:00pm",
+      "tuesday": "11:00am-8:00pm",
+      "wednesday": "11:00am-8:00pm",
+      "thursday": "11:00am-8:00pm",
+      "friday": "11:00am-8:00pm",
+      "saturday": "11:00am-8:00pm"
     }
   },
   {
@@ -503,13 +503,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-3:00pm",
+      "tuesday": "9:00am-3:00pm",
+      "wednesday": "9:00am-3:00pm",
+      "thursday": "9:00am-3:00pm",
+      "friday": "9:00am-3:00pm",
+      "saturday": "9:00am-3:00pm"
     }
   },
   {
@@ -543,13 +543,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-7:50pm",
+      "monday": "11:00am-7:50pm",
+      "tuesday": "11:00am-7:50pm",
+      "wednesday": "11:00am-7:50pm",
+      "thursday": "11:00am-7:50pm",
+      "friday": "11:00am-7:50pm",
+      "saturday": "11:00am-7:50pm"
     }
   },
   {
@@ -585,13 +585,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-10:00pm",
+      "monday": "11:00am-10:00pm",
+      "tuesday": "11:00am-10:00pm",
+      "wednesday": "11:00am-10:00pm",
+      "thursday": "11:00am-10:00pm",
+      "friday": "11:00am-11:00pm",
+      "saturday": "11:00am-11:00pm"
     }
   },
   {
@@ -626,13 +626,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "6:00am-11:00pm",
+      "monday": "6:00am-11:00pm",
+      "tuesday": "6:00am-11:00pm",
+      "wednesday": "6:00am-11:00pm",
+      "thursday": "6:00am-11:00pm",
+      "friday": "6:00am-11:00pm",
+      "saturday": "6:00am-11:00pm"
     }
   },
   {
@@ -666,13 +666,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "9:00am-8:00pm",
+      "monday": "8:30am-8:00pm",
+      "tuesday": "8:30am-8:00pm",
+      "wednesday": "8:30am-8:00pm",
+      "thursday": "8:30am-8:00pm",
+      "friday": "8:30am-8:00pm",
+      "saturday": "9:00am-8:00pm"
     }
   },
   {
@@ -708,13 +708,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-10:00pm",
+      "monday": "11:00am-10:00pm",
+      "tuesday": "11:00am-10:00pm",
+      "wednesday": "11:00am-10:00pm",
+      "thursday": "11:00am-10:00pm",
+      "friday": "11:00am-11:00pm",
+      "saturday": "11:00am-11:00pm"
     }
   },
   {
@@ -749,13 +749,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "4:00pm-8:30pm",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "4:00pm-9:00pm",
+      "thursday": "4:00pm-9:00pm",
+      "friday": "4:00pm-9:00pm",
+      "saturday": "4:00pm-9:00pm"
     }
   },
   {
@@ -789,13 +789,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-9:00pm",
+      "monday": "11:00am-9:00pm",
+      "tuesday": "11:00am-9:00pm",
+      "wednesday": "11:00am-9:00pm",
+      "thursday": "11:00am-9:00pm",
+      "friday": "11:00am-10:00pm",
+      "saturday": "11:00am-10:00pm"
     }
   },
   {
@@ -830,13 +830,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:30am-6:45pm",
+      "monday": "10:30am-7:45pm",
+      "tuesday": "10:30am-7:45pm",
+      "wednesday": "10:30am-7:45pm",
+      "thursday": "10:30am-7:45pm",
+      "friday": "10:30am-7:45pm",
+      "saturday": "10:30am-7:45pm"
     }
   },
   {
@@ -872,13 +872,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "5:00am-7:30pm",
+      "monday": "5:00am-7:30pm",
+      "tuesday": "5:00am-7:30pm",
+      "wednesday": "5:00am-7:30pm",
+      "thursday": "5:00am-7:30pm",
+      "friday": "5:00am-7:30pm",
+      "saturday": "5:30am-7:30pm"
     }
   },
   {
@@ -911,13 +911,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "5:30am-6:00pm",
+      "monday": "5:00am-6:00pm",
+      "tuesday": "5:00am-6:00pm",
+      "wednesday": "5:00am-6:00pm",
+      "thursday": "5:00am-6:00pm",
+      "friday": "5:00am-6:00pm",
+      "saturday": "5:30am-6:00pm"
     }
   },
   {
@@ -952,13 +952,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-2:00pm",
+      "monday": "6:00am-2:00pm",
+      "tuesday": "6:00am-2:00pm",
+      "wednesday": "6:00am-2:00pm",
+      "thursday": "6:00am-2:00pm",
+      "friday": "6:00am-2:00pm",
+      "saturday": "7:00am-2:00pm"
     }
   },
   {
@@ -994,13 +994,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "8:00am-4:00pm",
+      "monday": "7:00am-4:00pm",
+      "tuesday": "7:00am-4:00pm",
+      "wednesday": "7:00am-4:00pm",
+      "thursday": "7:00am-4:00pm",
+      "friday": "7:00am-6:00pm",
+      "saturday": "8:00am-4:00pm"
     }
   },
   {
@@ -1036,13 +1036,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-3:00pm",
+      "monday": "7:00am-3:00pm",
+      "tuesday": "7:00am-3:00pm",
+      "wednesday": "7:00am-3:00pm",
+      "thursday": "7:00am-3:00pm",
+      "friday": "7:00am-3:00pm",
+      "saturday": "7:00am-3:00pm"
     }
   },
   {
@@ -1078,13 +1078,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "12:00pm-8:00pm",
+      "monday": "12:00pm-8:00pm",
+      "tuesday": "12:00pm-8:00pm",
+      "wednesday": "12:00pm-8:00pm",
+      "thursday": "12:00pm-8:00pm",
+      "friday": "12:00pm-9:00pm",
+      "saturday": "12:00pm-9:00pm"
     }
   },
   {
@@ -1121,13 +1121,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Pop-up Only",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "By Appt",
+      "friday": "9:00am-1:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -1162,13 +1162,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-6:00pm",
+      "monday": "7:00am-6:00pm",
+      "tuesday": "7:00am-6:00pm",
+      "wednesday": "7:00am-6:00pm",
+      "thursday": "7:00am-6:00pm",
+      "friday": "7:00am-6:00pm",
+      "saturday": "7:00am-6:00pm"
     }
   },
   {
@@ -1202,13 +1202,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "11:00am-5:00pm",
+      "wednesday": "11:00am-5:00pm",
+      "thursday": "11:00am-5:00pm",
+      "friday": "11:00am-5:00pm",
+      "saturday": "11:00am-5:00pm"
     }
   },
   {
@@ -1241,13 +1241,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "5:00am-1:00am",
+      "monday": "5:00am-1:00am",
+      "tuesday": "5:00am-1:00am",
+      "wednesday": "5:00am-1:00am",
+      "thursday": "5:00am-1:00am",
+      "friday": "5:00am-1:00am",
+      "saturday": "5:00am-1:00am"
     }
   },
   {
@@ -1279,13 +1279,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "5:00am-1:00am",
+      "monday": "5:00am-1:00am",
+      "tuesday": "5:00am-1:00am",
+      "wednesday": "5:00am-1:00am",
+      "thursday": "5:00am-1:00am",
+      "friday": "5:00am-1:00am",
+      "saturday": "5:00am-1:00am"
     }
   },
   {
@@ -1317,13 +1317,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "6:00am-11:00pm",
+      "monday": "6:00am-11:00pm",
+      "tuesday": "6:00am-11:00pm",
+      "wednesday": "6:00am-11:00pm",
+      "thursday": "6:00am-11:00pm",
+      "friday": "6:00am-11:00pm",
+      "saturday": "6:00am-11:00pm"
     }
   },
   {
@@ -1359,13 +1359,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-5:00pm",
+      "monday": "9:00am-6:00pm",
+      "tuesday": "9:00am-6:00pm",
+      "wednesday": "9:00am-6:00pm",
+      "thursday": "9:00am-6:00pm",
+      "friday": "9:00am-6:00pm",
+      "saturday": "9:00am-6:00pm"
     }
   },
   {
@@ -1401,13 +1401,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-7:00pm",
+      "monday": "11:00am-7:00pm",
+      "tuesday": "11:00am-7:00pm",
+      "wednesday": "11:00am-7:00pm",
+      "thursday": "11:00am-7:00pm",
+      "friday": "11:00am-7:00pm",
+      "saturday": "10:00am-7:00pm"
     }
   },
   {
@@ -1443,13 +1443,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-7:00pm",
+      "monday": "9:30am-7:30pm",
+      "tuesday": "9:30am-7:30pm",
+      "wednesday": "9:30am-7:30pm",
+      "thursday": "9:30am-7:30pm",
+      "friday": "9:30am-7:30pm",
+      "saturday": "9:30am-7:30pm"
     }
   },
   {
@@ -1482,13 +1482,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "11:00am-5:00pm",
+      "wednesday": "11:00am-5:00pm",
+      "thursday": "11:00am-5:00pm",
+      "friday": "11:00am-5:00pm",
+      "saturday": "11:00am-5:00pm"
     }
   },
   {
@@ -1525,13 +1525,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-5:00pm",
+      "monday": "10:00am-6:00pm",
+      "tuesday": "10:00am-6:00pm",
+      "wednesday": "10:00am-6:00pm",
+      "thursday": "10:00am-6:00pm",
+      "friday": "10:00am-6:00pm",
+      "saturday": "10:00am-6:00pm"
     }
   },
   {
@@ -1566,13 +1566,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:30pm",
+      "tuesday": "9:00am-5:30pm",
+      "wednesday": "9:00am-5:30pm",
+      "thursday": "9:00am-5:30pm",
+      "friday": "9:00am-5:30pm",
+      "saturday": "9:00am-4:00pm"
     }
   },
   {
@@ -1606,13 +1606,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "10:00am-5:00pm",
+      "wednesday": "10:00am-5:00pm",
+      "thursday": "10:00am-5:00pm",
+      "friday": "10:00am-5:00pm",
+      "saturday": "9:00am-4:00pm"
     }
   },
   {
@@ -1647,13 +1647,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:30am-7:00pm",
+      "tuesday": "9:30am-7:00pm",
+      "wednesday": "9:30am-5:30pm",
+      "thursday": "10:00am-6:00pm",
+      "friday": "9:00am-5:30pm",
+      "saturday": "9:00am-3:00pm"
     }
   },
   {
@@ -1688,13 +1688,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-5:00pm",
+      "monday": "8:00am-6:00pm",
+      "tuesday": "8:00am-6:00pm",
+      "wednesday": "8:00am-6:00pm",
+      "thursday": "8:00am-6:00pm",
+      "friday": "8:00am-6:00pm",
+      "saturday": "9:00am-6:00pm"
     }
   },
   {
@@ -1728,13 +1728,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-10:00pm",
+      "monday": "7:00am-10:00pm",
+      "tuesday": "7:00am-10:00pm",
+      "wednesday": "7:00am-10:00pm",
+      "thursday": "7:00am-10:00pm",
+      "friday": "7:00am-10:00pm",
+      "saturday": "7:00am-10:00pm"
     }
   },
   {
@@ -1768,13 +1768,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "12:00pm-5:00pm",
+      "tuesday": "12:00pm-5:00pm",
+      "wednesday": "12:00pm-5:00pm",
+      "thursday": "12:00pm-5:00pm",
+      "friday": "12:00pm-5:00pm",
+      "saturday": "12:00pm-5:00pm"
     }
   },
   {
@@ -1808,13 +1808,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "12:00pm-4:00pm",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "12:00pm-6:00pm",
+      "thursday": "12:00pm-6:00pm",
+      "friday": "12:00pm-6:00pm",
+      "saturday": "12:00pm-6:00pm"
     }
   },
   {
@@ -1849,13 +1849,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "8:00am-6:00pm",
+      "monday": "8:00am-7:00pm",
+      "tuesday": "8:00am-7:00pm",
+      "wednesday": "8:00am-7:00pm",
+      "thursday": "8:00am-7:00pm",
+      "friday": "8:00am-7:00pm",
+      "saturday": "8:00am-7:00pm"
     }
   },
   {
@@ -1890,13 +1890,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:00am-3:00pm",
+      "tuesday": "7:00am-3:00pm",
+      "wednesday": "7:00am-3:00pm",
+      "thursday": "7:00am-3:00pm",
+      "friday": "7:00am-3:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -1931,13 +1931,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "3:00pm-9:00pm",
+      "wednesday": "3:00pm-9:00pm",
+      "thursday": "3:00pm-9:00pm",
+      "friday": "3:00pm-10:00pm",
+      "saturday": "1:00pm-10:00pm"
     }
   },
   {
@@ -1972,13 +1972,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-12:00pm",
+      "monday": "7:00am-7:00pm",
+      "tuesday": "7:00am-7:00pm",
+      "wednesday": "7:00am-7:00pm",
+      "thursday": "7:00am-7:00pm",
+      "friday": "7:00am-7:00pm",
+      "saturday": "7:00am-7:00pm"
     }
   },
   {
@@ -2012,13 +2012,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-5:00pm",
+      "monday": "7:00am-8:00pm",
+      "tuesday": "7:00am-8:00pm",
+      "wednesday": "7:00am-8:00pm",
+      "thursday": "7:00am-8:00pm",
+      "friday": "7:00am-8:00pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -2051,13 +2051,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-1:00pm",
+      "monday": "5:00am-8:00pm",
+      "tuesday": "5:00am-8:00pm",
+      "wednesday": "5:00am-8:00pm",
+      "thursday": "5:00am-8:00pm",
+      "friday": "5:00am-8:00pm",
+      "saturday": "7:00am-1:00pm"
     }
   },
   {
@@ -2091,13 +2091,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:00am-7:00pm",
+      "tuesday": "7:00am-7:00pm",
+      "wednesday": "7:00am-7:00pm",
+      "thursday": "7:00am-7:00pm",
+      "friday": "7:00am-7:00pm",
+      "saturday": "8:00am-12:00pm"
     }
   },
   {
@@ -2132,13 +2132,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "8:00am-2:00pm",
+      "monday": "8:00am-7:00pm",
+      "tuesday": "8:00am-7:00pm",
+      "wednesday": "8:00am-7:00pm",
+      "thursday": "8:00am-7:00pm",
+      "friday": "8:00am-7:00pm",
+      "saturday": "8:00am-2:00pm"
     }
   },
   {
@@ -2172,13 +2172,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-6:00pm",
+      "monday": "6:00am-8:00pm",
+      "tuesday": "6:00am-8:00pm",
+      "wednesday": "6:00am-8:00pm",
+      "thursday": "6:00am-8:00pm",
+      "friday": "6:00am-8:00pm",
+      "saturday": "7:00am-1:00pm"
     }
   },
   {
@@ -2213,13 +2213,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "8:30am-12:30pm",
+      "monday": "8:30am-7:00pm",
+      "tuesday": "9:00am-7:00pm",
+      "wednesday": "8:30am-7:00pm",
+      "thursday": "9:00am-7:00pm",
+      "friday": "8:30am-6:30pm",
+      "saturday": "8:30am-12:15pm"
     }
   },
   {
@@ -2255,13 +2255,13 @@
     "family_friendly": true,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-8:30pm",
+      "tuesday": "9:00am-8:30pm",
+      "wednesday": "9:00am-8:30pm",
+      "thursday": "9:00am-8:30pm",
+      "friday": "9:00am-8:30pm",
+      "saturday": "8:00am-3:00pm"
     }
   },
   {
@@ -2295,13 +2295,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "12:00pm-9:00pm",
+      "tuesday": "12:00pm-9:00pm",
+      "wednesday": "12:00pm-9:00pm",
+      "thursday": "1:00pm-9:00pm",
+      "friday": "3:00pm-9:00pm",
+      "saturday": "9:00am-3:00pm"
     }
   },
   {
@@ -2335,13 +2335,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "1:00pm-6:00pm",
+      "tuesday": "7:30am-6:00pm",
+      "wednesday": "7:30am-1:00pm",
+      "thursday": "1:00pm-6:00pm",
+      "friday": "7:30am-1:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2376,13 +2376,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-4:00pm",
+      "monday": "Closed",
+      "tuesday": "10:00am-7:00pm",
+      "wednesday": "10:00am-7:00pm",
+      "thursday": "10:00am-7:00pm",
+      "friday": "10:00am-7:00pm",
+      "saturday": "10:00am-7:00pm"
     }
   },
   {
@@ -2416,13 +2416,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "9:00am-7:00pm",
+      "wednesday": "9:00am-7:00pm",
+      "thursday": "9:00am-7:00pm",
+      "friday": "9:00am-6:00pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -2457,13 +2457,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "9:00am-7:00pm",
+      "wednesday": "9:00am-7:00pm",
+      "thursday": "9:00am-7:00pm",
+      "friday": "9:00am-6:00pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -2498,13 +2498,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:30am-6:30pm",
+      "tuesday": "9:30am-6:30pm",
+      "wednesday": "9:30am-6:30pm",
+      "thursday": "9:30am-6:30pm",
+      "friday": "9:30am-6:30pm",
+      "saturday": "9:30am-6:00pm"
     }
   },
   {
@@ -2534,13 +2534,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:30am-6:00pm",
+      "tuesday": "7:30am-6:00pm",
+      "wednesday": "7:30am-6:00pm",
+      "thursday": "7:30am-6:00pm",
+      "friday": "7:30am-6:00pm",
+      "saturday": "8:00am-12:00pm"
     }
   },
   {
@@ -2575,13 +2575,13 @@
     "family_friendly": true,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "9:00am-6:00pm",
+      "monday": "9:00am-7:00pm",
+      "tuesday": "9:00am-7:00pm",
+      "wednesday": "9:00am-7:00pm",
+      "thursday": "9:00am-7:00pm",
+      "friday": "9:00am-7:00pm",
+      "saturday": "9:00am-6:00pm"
     }
   },
   {
@@ -2617,13 +2617,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-6:00pm",
+      "monday": "9:30am-7:00pm",
+      "tuesday": "9:30am-7:00pm",
+      "wednesday": "9:30am-7:00pm",
+      "thursday": "9:30am-7:00pm",
+      "friday": "9:30am-7:00pm",
+      "saturday": "9:30am-7:00pm"
     }
   },
   {
@@ -2658,13 +2658,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-6:00pm",
+      "monday": "9:00am-9:00pm",
+      "tuesday": "9:00am-9:00pm",
+      "wednesday": "9:00am-9:00pm",
+      "thursday": "9:00am-9:00pm",
+      "friday": "9:00am-9:00pm",
+      "saturday": "9:00am-6:00pm"
     }
   },
   {
@@ -2702,13 +2702,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-6:00pm",
+      "tuesday": "8:00am-6:00pm",
+      "wednesday": "8:00am-6:00pm",
+      "thursday": "8:00am-6:00pm",
+      "friday": "8:00am-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2742,13 +2742,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-6:00pm",
+      "tuesday": "8:00am-6:00pm",
+      "wednesday": "8:00am-6:00pm",
+      "thursday": "8:00am-6:00pm",
+      "friday": "8:00am-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2785,13 +2785,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2826,13 +2826,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "7:00am-4:00pm",
+      "thursday": "7:00am-4:00pm",
+      "friday": "8:00am-3:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2866,13 +2866,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:00am-3:00pm",
+      "tuesday": "7:00am-3:00pm",
+      "wednesday": "7:00am-3:00pm",
+      "thursday": "7:00am-3:00pm",
+      "friday": "7:00am-3:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2907,13 +2907,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-4:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2947,13 +2947,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -2988,13 +2988,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "9:00am-12:00pm"
     }
   },
   {
@@ -3029,13 +3029,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:30am-5:30pm",
+      "tuesday": "7:30am-5:30pm",
+      "wednesday": "7:30am-5:30pm",
+      "thursday": "7:30am-5:30pm",
+      "friday": "7:30am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3070,13 +3070,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-6:00pm",
+      "tuesday": "9:00am-6:00pm",
+      "wednesday": "9:00am-6:00pm",
+      "thursday": "9:00am-6:00pm",
+      "friday": "9:00am-6:00pm",
+      "saturday": "9:00am-6:00pm"
     }
   },
   {
@@ -3110,13 +3110,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:30am-7:00pm",
+      "tuesday": "9:30am-7:00pm",
+      "wednesday": "9:30am-5:30pm",
+      "thursday": "10:00am-6:00pm",
+      "friday": "9:00am-5:30pm",
+      "saturday": "9:00am-3:00pm"
     }
   },
   {
@@ -3150,13 +3150,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:30am-6:30pm",
+      "tuesday": "8:30am-3:00pm",
+      "wednesday": "11:00am-6:30pm",
+      "thursday": "8:30am-6:30pm",
+      "friday": "Closed",
+      "saturday": "By Appt"
     }
   },
   {
@@ -3190,13 +3190,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:30am-5:00pm",
+      "tuesday": "8:30am-5:00pm",
+      "wednesday": "8:30am-5:00pm",
+      "thursday": "8:30am-5:00pm",
+      "friday": "8:30am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3311,13 +3311,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3351,13 +3351,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3391,13 +3391,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3431,13 +3431,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3471,13 +3471,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-6:00pm",
+      "saturday": "10:00am-1:30pm"
     }
   },
   {
@@ -3511,13 +3511,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3550,13 +3550,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3590,13 +3590,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-4:00pm",
+      "monday": "8:30am-5:00pm",
+      "tuesday": "8:30am-5:00pm",
+      "wednesday": "8:30am-5:00pm",
+      "thursday": "8:30am-5:00pm",
+      "friday": "8:30am-5:00pm",
+      "saturday": "10:00am-4:00pm"
     }
   },
   {
@@ -3629,13 +3629,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "9:00am-5:00pm",
+      "monday": "8:30am-5:30pm",
+      "tuesday": "8:30am-5:30pm",
+      "wednesday": "8:30am-5:30pm",
+      "thursday": "8:30am-5:30pm",
+      "friday": "8:30am-5:30pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -3670,13 +3670,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-3:00pm",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "10:00am-3:00pm"
     }
   },
   {
@@ -3709,13 +3709,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "By Appt"
     }
   },
   {
@@ -3749,13 +3749,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3789,13 +3789,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3869,13 +3869,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -3948,13 +3948,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-4:00pm",
+      "monday": "7:30am-5:30pm",
+      "tuesday": "7:30am-5:30pm",
+      "wednesday": "7:30am-5:30pm",
+      "thursday": "7:30am-5:30pm",
+      "friday": "7:30am-5:30pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -3987,13 +3987,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:30am-5:30pm",
+      "tuesday": "8:30am-5:30pm",
+      "wednesday": "8:30am-5:30pm",
+      "thursday": "8:30am-5:30pm",
+      "friday": "8:30am-5:30pm",
+      "saturday": "10:00am-2:00pm"
     }
   },
   {
@@ -4027,13 +4027,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-6:30pm",
+      "tuesday": "8:00am-6:30pm",
+      "wednesday": "8:00am-6:30pm",
+      "thursday": "8:00am-6:30pm",
+      "friday": "8:00am-6:30pm",
+      "saturday": "9:00am-5:00pm"
     }
   },
   {
@@ -4069,13 +4069,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "8:00am-4:00pm"
     }
   },
   {
@@ -4108,13 +4108,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "9:00am-5:00pm",
+      "tuesday": "9:00am-5:00pm",
+      "wednesday": "9:00am-5:00pm",
+      "thursday": "9:00am-5:00pm",
+      "friday": "9:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4147,13 +4147,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "8:00am-5:00pm",
+      "tuesday": "8:00am-5:00pm",
+      "wednesday": "8:00am-5:00pm",
+      "thursday": "8:00am-5:00pm",
+      "friday": "8:00am-5:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4186,13 +4186,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "24/7",
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7"
     }
   },
   {
@@ -4226,13 +4226,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:00am-6:00pm",
+      "tuesday": "7:00am-6:00pm",
+      "wednesday": "7:00am-6:00pm",
+      "thursday": "7:00am-6:00pm",
+      "friday": "7:00am-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4265,13 +4265,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "6:30am-6:00pm",
+      "tuesday": "6:30am-6:00pm",
+      "wednesday": "6:30am-6:00pm",
+      "thursday": "6:30am-6:00pm",
+      "friday": "6:30am-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4304,13 +4304,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "12:00pm-6:00pm",
+      "tuesday": "12:00pm-6:00pm",
+      "wednesday": "12:00pm-6:00pm",
+      "thursday": "12:00pm-6:00pm",
+      "friday": "12:00pm-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4343,13 +4343,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "3:00pm-8:00pm",
+      "tuesday": "3:00pm-8:00pm",
+      "wednesday": "3:00pm-8:00pm",
+      "thursday": "3:00pm-8:00pm",
+      "friday": "3:00pm-7:00pm",
+      "saturday": "9:00am-2:00pm"
     }
   },
   {
@@ -4383,13 +4383,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "11:00am-6:00pm",
+      "monday": "10:00am-6:00pm",
+      "tuesday": "12:00pm-8:00pm",
+      "wednesday": "12:00pm-8:00pm",
+      "thursday": "10:00am-6:00pm",
+      "friday": "10:00am-6:00pm",
+      "saturday": "11:00am-6:00pm"
     }
   },
   {
@@ -4423,13 +4423,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "10:00am-7:00pm",
+      "tuesday": "10:00am-7:00pm",
+      "wednesday": "10:00am-7:00pm",
+      "thursday": "10:00am-7:00pm",
+      "friday": "10:00am-5:00pm",
+      "saturday": "10:00am-5:00pm"
     }
   },
   {
@@ -4462,13 +4462,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "7:00am-6:00pm",
+      "monday": "6:00am-9:00pm",
+      "tuesday": "6:00am-9:00pm",
+      "wednesday": "6:00am-9:00pm",
+      "thursday": "6:00am-9:00pm",
+      "friday": "6:00am-6:00pm",
+      "saturday": "8:00am-6:00pm"
     }
   },
   {
@@ -4501,13 +4501,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "Closed",
+      "monday": "7:00am-6:00pm",
+      "tuesday": "7:00am-6:00pm",
+      "wednesday": "7:00am-6:00pm",
+      "thursday": "7:00am-6:00pm",
+      "friday": "7:00am-6:00pm",
+      "saturday": "Closed"
     }
   },
   {
@@ -4540,13 +4540,13 @@
     "family_friendly": false,
     "outdoor": false,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-5:00pm",
+      "monday": "10:00am-5:00pm",
+      "tuesday": "10:00am-5:00pm",
+      "wednesday": "10:00am-5:00pm",
+      "thursday": "10:00am-5:00pm",
+      "friday": "10:00am-5:00pm",
+      "saturday": "10:00am-5:00pm"
     }
   },
   {
@@ -4582,13 +4582,13 @@
     "family_friendly": false,
     "outdoor": true,
     "hours": {
-      "sunday": "",
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": ""
+      "sunday": "10:00am-3:00pm",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "Closed",
+      "saturday": "Closed"
     }
   }
 ]

@@ -46,13 +46,6 @@ body {
     linear-gradient(to bottom, rgba(10,14,18,0.92), rgba(14,20,22,1));
 }
 
-.about-page,
-.contact-page{
-  background:
-    radial-gradient(1100px 720px at 22% 12%, rgba(79,122,120,0.14), transparent 58%),
-    radial-gradient(900px 650px at 82% 22%, rgba(202,160,106,0.14), transparent 58%),
-    linear-gradient(to bottom, rgba(10,14,18,0.92), rgba(14,20,22,1));
-}
 
 a {
   color: inherit;
@@ -424,7 +417,9 @@ h3 {
 }
 
 
-
+#bottom {
+  padding-top: 100rem;
+}
 
 
 .section {

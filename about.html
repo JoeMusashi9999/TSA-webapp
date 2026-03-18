@@ -24,6 +24,14 @@
 
       <!-- Cool Little Dynamic Cursor Effect -->
       <div id="cursor-light"></div>
+      
+      <!-- Search -->
+            <div class="search-wrap search-shell">
+                <label class="sr-only" for="searchInput">Search links</label>
+                <input id="searchInput" class="input site-search" type="search"
+                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+                <div id="searchSuggestions" class="search-suggestions" hidden></div>
+            </div>
 
       <!-- Navigation Links -->
       <nav class="primary-nav" aria-label="Primary">
@@ -145,6 +153,7 @@
     </footer>
   </main>
   <script src="./javascript/dynamicCursor.js"></script>
+  <script src="./javascript/search.js"></script>
 </body>
 
 </html>

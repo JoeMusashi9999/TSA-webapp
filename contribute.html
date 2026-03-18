@@ -23,7 +23,13 @@
                 </div>
             </div>
 
-            <div></div>
+            <!-- Search -->
+            <div class="search-wrap search-shell">
+                <label class="sr-only" for="searchInput">Search links</label>
+                <input id="searchInput" class="input site-search" type="search"
+                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+                <div id="searchSuggestions" class="search-suggestions" hidden></div>
+            </div>
 
             <nav class="primary-nav" aria-label="Primary">
                 <a href="index.html" class="btn">Home</a>
@@ -238,6 +244,8 @@
             </div>
         </form>
     </main>
+      <script src="./javascript/search.js"></script>
+
 </body>
 
 </html>

@@ -19,12 +19,21 @@
         </div>
       </a>
 
-      <div></div>
+      <!-- Search -->
+            <div class="search-wrap search-shell">
+                <label class="sr-only" for="searchInput">Search links</label>
+                <input id="searchInput" class="input site-search" type="search"
+                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+                <div id="searchSuggestions" class="search-suggestions" hidden></div>
+            </div>
 
+      <!-- Primary Navigation -->
       <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html" class="btn">Home</a>
         <a href="discover.html" class="btn">Discover</a>
         <a href="about.html" class="btn">About Us</a>
         <a href="contact.html" class="btn">Contact</a>
+        <a href="contribute.html" class="btn">Contribute</a>
       </nav>
     </div>
   </header>
@@ -37,5 +46,7 @@
 
   <script src="./javascript/place.js"></script>
   <script src="./javascript/dynamicCursor.js"></script>
+    <script src="./javascript/search.js"></script>
+
 </body>
 </html>

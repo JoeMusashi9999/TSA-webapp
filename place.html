@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Place | Community Hub</title>
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
+
 <body>
   <div id="cursor-light"></div>
 
@@ -20,12 +23,12 @@
       </a>
 
       <!-- Search -->
-            <div class="search-wrap search-shell">
-                <label class="sr-only" for="searchInput">Search links</label>
-                <input id="searchInput" class="input site-search" type="search"
-                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
-                <div id="searchSuggestions" class="search-suggestions" hidden></div>
-            </div>
+      <div class="search-wrap search-shell">
+        <label class="sr-only" for="searchInput">Search links</label>
+        <input id="searchInput" class="input site-search" type="search"
+          placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+        <div id="searchSuggestions" class="search-suggestions" hidden></div>
+      </div>
 
       <!-- Primary Navigation -->
       <nav class="primary-nav" aria-label="Primary">
@@ -43,10 +46,11 @@
       <p id="placeStatus" class="section-subtitle">Loading place details...</p>
     </section>
   </main>
-
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="./javascript/place.js"></script>
   <script src="./javascript/dynamicCursor.js"></script>
-    <script src="./javascript/search.js"></script>
+  <script src="./javascript/search.js"></script>
 
 </body>
+
 </html>

@@ -27,7 +27,7 @@ def lookup_place(name: str, city: str = "Mercer Island", state: str = "WA"):
 
     if not results:
         return None
-
+        
     place = results[0]
     address = place.get("address", {})
 

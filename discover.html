@@ -26,12 +26,12 @@
       </a>
 
       <!-- Search -->
-            <div class="search-wrap search-shell">
-                <label class="sr-only" for="searchInput">Search links</label>
-                <input id="searchInput" class="input site-search" type="search"
-                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
-                <div id="searchSuggestions" class="search-suggestions" hidden></div>
-            </div>
+      <div class="search-wrap search-shell">
+        <label class="sr-only" for="searchInput">Search links</label>
+        <input id="searchInput" class="input site-search" type="search"
+          placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+        <div id="searchSuggestions" class="search-suggestions" hidden></div>
+      </div>
 
       <!-- Primary Navigation -->
       <nav class="primary-nav" aria-label="Primary">
@@ -61,6 +61,40 @@
 
     </section>
 
+
+    <!-- template! MORE MODALS!!!-->
+    <div id="placePreviewModal" class="modal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalCloseBtn" type="button" aria-label="Close">×</button>
+
+        <div class="modal-body">
+          <h2 id="modalTitle" class="modal-title"></h2>
+          <p id="modalShortDescription" class="modal-desc"></p>
+
+          <div class="modal-section">
+            <h3>Tags</h3>
+            <div id="modalTags" class="card-tags"></div>
+          </div>
+
+          <div class="modal-section">
+            <h3>Rating</h3>
+            <p id="modalRating" class="modal-meta"></p>
+          </div>
+
+          <div class="modal-section">
+            <h3>Hours</h3>
+            <div id="modalHours" class="hours-list"></div>
+          </div>
+
+          <div class="modal-actions">
+            <a id="modalPlaceLink" class="btn btn-primary" href="#">Open Place Page</a>
+            <a id="modalWebsiteLink" class="btn" href="#" target="_blank" rel="noopener">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="footer-inner">
         <a href="./Copyright.pdf" class="footer-link">Copyright Checklist</a>
@@ -68,10 +102,9 @@
       </div>
     </footer>
 
-    <script src="./javascript/discover.js"></script>
     <script src="./javascript/directory.js"></script>
     <script src="./javascript/dynamicCursor.js"></script>
-      <script src="./javascript/search.js"></script>
+    <script src="./javascript/search.js"></script>
 
 </body>
 

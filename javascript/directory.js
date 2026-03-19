@@ -37,6 +37,24 @@ function resolveImagePath(image) {
   return `./src/images/${img}`;
 }
 
+function getTopTags(places, limit = 10) {
+  const counts = new Map();
+
+  places.forEach(place => {
+    const tags = splitTags(place.tags);
+
+    tags.forEach(tag => {
+      if (!tag) return;
+      counts.set(tag, (counts.get(tag) || 0) + 1);
+    });
+  });
+
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1]) // sort by frequency descending
+    .slice(0, limit)
+    .map(([tag]) => tag);
+}
+
 function formatHours(place) {
   if (place.hours && typeof place.hours === "object") {
     return [
@@ -246,11 +264,10 @@ function buildTagBar() {
   });
 
   const priority = ["restaurant", "health", "grocery", "education", "utilities"];
-  const allTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b));
-
+  const topTags = getTopTags(places, 10);
   const ordered = [
     ...priority.filter((tag) => tagSet.has(tag)),
-    ...allTags.filter((tag) => !priority.includes(tag)),
+    ...topTags.filter((tag) => !priority.includes(tag)),
   ];
 
   tagBar.innerHTML = "";

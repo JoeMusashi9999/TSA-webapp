@@ -128,7 +128,7 @@ body.theme-dark .theme-toggle-thumb {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0;
+  opacity: 80%;
   clip-path: circle(0px at 50% 50%);
 }
 
@@ -539,11 +539,6 @@ h3 {
   color: var(--text);
 }
 
-.chip.is-active {
-  background: color-mix(in srgb, var(--accent-primary) 16%, transparent);
-  border-color: color-mix(in srgb, var(--accent-primary) 38%, transparent);
-  color: var(--accent-primary);
-}
 
 
 .section {
@@ -785,7 +780,7 @@ h3 {
   }
 }
 
-/* Discovery: Weekly Spotlight */
+/* Spotlight styling*/
 .weekly-spotlight {
   padding-top: 26px;
   padding-bottom: 8px;
@@ -796,8 +791,9 @@ h3 {
   font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   letter-spacing: -0.02em;
-  font-size: clamp(2.8rem, 6vw, 5.0rem);
+  font-size: clamp(2.8rem, 6vw, 5rem);
   margin: 12px 0 26px;
+  color: var(--text);
 }
 
 .weekly-spotlight-grid {
@@ -811,7 +807,7 @@ h3 {
   grid-column: span 4;
   border-radius: 22px;
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--panel);
   box-shadow: var(--shadow);
   overflow: hidden;
   transition: transform 0.12s ease, background 0.15s ease, border-color 0.15s ease;
@@ -819,8 +815,8 @@ h3 {
 
 .spotlight-tile:hover {
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.18);
+  background: var(--panel-2);
+  border-color: color-mix(in srgb, var(--accent-primary) 18%, var(--border));
 }
 
 .spotlight-tile-link {
@@ -830,7 +826,7 @@ h3 {
 .spotlight-media {
   width: 100%;
   aspect-ratio: 16 / 10;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--panel);
 }
 
 .spotlight-media img {
@@ -849,12 +845,13 @@ h3 {
 .spotlight-name {
   font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
-  font-size: clamp(1.45rem, 2.3vw, 2.0rem);
+  font-size: clamp(1.45rem, 2.3vw, 2rem);
   margin-bottom: 6px;
+  color: var(--text);
 }
 
 .spotlight-desc {
-  color: rgba(230, 236, 233, 0.74);
+  color: var(--muted);
   margin-bottom: 12px;
   line-height: 1.55;
 }
@@ -869,15 +866,15 @@ h3 {
 .spotlight-tag {
   font-size: 12px;
   letter-spacing: 0.02em;
-  color: rgba(220, 205, 178, 0.80);
+  color: var(--accent-secondary);
   position: relative;
 }
 
-.spotlight-tag+.spotlight-tag::before {
+.spotlight-tag + .spotlight-tag::before {
   content: "•";
   position: absolute;
   left: -9px;
-  color: rgba(220, 205, 178, 0.35);
+  color: color-mix(in srgb, var(--accent-secondary) 40%, transparent);
 }
 
 .spotlight-cta {
@@ -905,7 +902,7 @@ h3 {
 
 .spotlight-cta-btn:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 4px rgba(202, 160, 106, 0.16);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-secondary) 16%, transparent);
   border-radius: 10px;
 }
 
@@ -913,7 +910,7 @@ h3 {
   text-align: center;
   margin: 18px auto 0;
   max-width: 720px;
-  color: rgba(220, 226, 221, 0.62);
+  color: var(--faint);
 }
 
 @media (max-width: 920px) {
@@ -944,8 +941,12 @@ body.modal-open {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(900px 650px at 30% 15%, rgba(202, 160, 106, 0.12), transparent 55%),
-    rgba(6, 8, 10, 0.66);
+    radial-gradient(
+      900px 650px at 30% 15%,
+      color-mix(in srgb, var(--accent-secondary) 12%, transparent),
+      transparent 55%
+    ),
+    color-mix(in srgb, var(--bg) 42%, rgba(0, 0, 0, 0.22));
   backdrop-filter: blur(10px);
 }
 
@@ -953,10 +954,14 @@ body.modal-open {
   position: relative;
   width: min(980px, 100%);
   border-radius: 26px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(16, 22, 24, 0.92);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 86%, var(--panel));
+  box-shadow: 0 20px 60px rgba(70, 52, 30, 0.18);
   overflow: hidden;
+}
+
+body.theme-dark .modal-dialog {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
 }
 
 .modal-close {
@@ -966,22 +971,22 @@ body.modal-open {
   width: 42px;
   height: 42px;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(255, 255, 255, 0.06);
-  color: rgba(238, 242, 239, 0.92);
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
   cursor: pointer;
   transition: transform 0.08s ease, background 0.12s ease, border-color 0.12s ease;
 }
 
 .modal-close:hover {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.09);
-  border-color: rgba(255, 255, 255, 0.20);
+  background: var(--panel-2);
+  border-color: color-mix(in srgb, var(--accent-primary) 22%, var(--border));
 }
 
 .modal-close:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 4px rgba(202, 160, 106, 0.16);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-secondary) 16%, transparent);
 }
 
 .modal-grid {
@@ -991,7 +996,7 @@ body.modal-open {
 }
 
 .modal-media {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--panel);
   min-height: 360px;
 }
 
@@ -1012,15 +1017,16 @@ body.modal-open {
   font-weight: 500;
   font-size: clamp(1.7rem, 3vw, 2.4rem);
   margin-bottom: 8px;
+  color: var(--text);
 }
 
 .modal-desc {
-  color: rgba(230, 236, 233, 0.78);
+  color: var(--muted);
   margin-bottom: 10px;
 }
 
 .modal-long {
-  color: rgba(220, 226, 221, 0.66);
+  color: var(--muted);
   line-height: 1.6;
   margin-bottom: 14px;
 }
@@ -1036,10 +1042,11 @@ body.modal-open {
   font-size: 12px;
   padding: 7px 10px;
   border-radius: 999px;
-  border: 1px solid rgba(202, 160, 106, 0.22);
-  background: rgba(202, 160, 106, 0.08);
-  color: rgba(220, 205, 178, 0.86);
+  border: 1px solid color-mix(in srgb, var(--accent-secondary) 36%, transparent);
+  background: color-mix(in srgb, var(--accent-secondary) 14%, transparent);
+  color: var(--accent-secondary);
 }
+
 
 .modal-actions {
   display: grid;
@@ -1058,14 +1065,14 @@ body.modal-open {
 
 .modal-link {
   font-size: 13px;
-  color: rgba(202, 160, 106, 0.85);
-  border-bottom: 1px solid rgba(202, 160, 106, 0.25);
+  color: var(--accent-secondary);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-secondary) 28%, transparent);
   padding-bottom: 2px;
 }
 
 .modal-link:hover {
-  color: rgba(202, 160, 106, 0.98);
-  border-bottom-color: rgba(202, 160, 106, 0.45);
+  color: color-mix(in srgb, var(--accent-secondary) 82%, black 18%);
+  border-bottom-color: color-mix(in srgb, var(--accent-secondary) 45%, transparent);
 }
 
 @media (max-width: 860px) {
@@ -1155,11 +1162,16 @@ body.cursor-active #cursor-light {
   color: var(--text);
 }
 
-.tagchip.is-active {
-  background: color-mix(in srgb, var(--accent-primary) 14%, transparent);
-  border-color: color-mix(in srgb, var(--accent-primary) 35%, transparent);
-  color: var(--accent-primary);
+.tagchip.is-active,
+.chip.is-active {
+  background: color-mix(in srgb, var(--accent-secondary) 22%, transparent);
+  border-color: color-mix(in srgb, var(--accent-secondary) 48%, transparent);
+  color: var(--accent-secondary);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--accent-secondary) 35%, transparent),
+    inset 0 1px 2px rgba(0,0,0,0.06);
 }
+
 
 @media (max-width: 520px) {
   .tagbar {

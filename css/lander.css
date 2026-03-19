@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 24px;
-  background-image: url("../src/PrimarySplash.png");
+  background-image: url("../src/images/PrimarySplash.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,8 +17,12 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to bottom, rgba(8,12,14,0.30), rgba(8,12,14,0.48)),
-    radial-gradient(circle at 50% 35%, rgba(255,255,255,0.06), transparent 45%);
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--bg) 18%, transparent),
+      color-mix(in srgb, var(--bg) 34%, transparent)
+    ),
+    radial-gradient(circle at 50% 35%, rgba(255,255,255,0.08), transparent 90%);
 }
 
 .hero-content{
@@ -40,7 +44,7 @@
   max-width: 700px;
   margin: 0 auto 24px;
   font-size: clamp(1rem, 1.5vw, 1.2rem);
-  color: rgba(255,255,255,0.82);
+  color: var(--muted);
 }
 
 .main-content{
@@ -49,9 +53,8 @@
   margin-top: -80px;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
-  background:
-    linear-gradient(to bottom, rgba(13,19,21,0.96), rgba(13,19,21,1));
-  box-shadow: 0 -20px 50px rgba(0,0,0,0.25);
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  box-shadow: var(--shadow);
   padding-top: 36px;
 }
 
@@ -60,6 +63,7 @@
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 4rem;
+  color: var(--text);
 }
 
 .spotlight{
@@ -79,9 +83,10 @@
   margin-bottom: 20px;
 }
 
-.spotlight-footer{  
+.spotlight-footer{
   text-align: center;
   margin: auto;
+  color: var(--faint);
 }
 
 .spotlight-footer-container{

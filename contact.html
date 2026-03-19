@@ -9,7 +9,7 @@
 </head>
 
 <body class="contact-page">
-
+  <div class="bg-layer" aria-hidden="true"></div>
   <!-- Header -->
   <header class="topbar">
     <div class="topbar-inner">
@@ -21,14 +21,14 @@
           <div class="brand-subtitle">Find local links quickly</div>
         </div>
       </a>
-      
+
       <!-- Search -->
-            <div class="search-wrap search-shell">
-                <label class="sr-only" for="searchInput">Search links</label>
-                <input id="searchInput" class="input site-search" type="search"
-                    placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
-                <div id="searchSuggestions" class="search-suggestions" hidden></div>
-            </div>
+      <div class="search-wrap search-shell">
+        <label class="sr-only" for="searchInput">Search links</label>
+        <input id="searchInput" class="input site-search" type="search"
+          placeholder="Search: orthopedics, restaurants, tutoring, utilities..." autocomplete="off" />
+        <div id="searchSuggestions" class="search-suggestions" hidden></div>
+      </div>
 
       <nav class="primary-nav" aria-label="Primary">
         <a href="index.html" class="btn">Home</a>
@@ -36,7 +36,16 @@
         <a href="about.html" class="btn">About Us</a>
         <a href="contact.html" class="btn is-active" aria-current="page">Contact</a>
         <a href="contribute.html" class="btn">Contribute</a>
+
       </nav>
+      <div class="theme-toggle-wrap">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+          <span class="theme-toggle-label">Light</span>
+        </button>
+      </div>
     </div>
   </header>
   <!-- Cool Little Dynamic Cursor Effect -->
@@ -161,8 +170,10 @@
       </p>
     </footer>
   </main>
+  <div id="themeTransition" class="theme-transition" aria-hidden="true"></div>
+  <script src="./javascript/theme.js"></script>
   <script src="./javascript/dynamicCursor.js"></script>
-    <script src="./javascript/search.js"></script>
+  <script src="./javascript/search.js"></script>
 
 
 </body>

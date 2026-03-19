@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <div class="bg-layer" aria-hidden="true"></div>
   <!-- Cool Little Dynamic Cursor Effect -->
   <div id="cursor-light"></div>
 
@@ -41,6 +42,14 @@
         <a href="contact.html" class="btn">Contact</a>
         <a href="contribute.html" class="btn">Contribute</a>
       </nav>
+      <div class="theme-toggle-wrap">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+          <span class="theme-toggle-label">Light</span>
+        </button>
+      </div>
 
     </div>
 
@@ -101,7 +110,8 @@
         <a href="./Planofwork.pdf" class="footer-link">Plan of Work</a>
       </div>
     </footer>
-
+    <div id="themeTransition" class="theme-transition" aria-hidden="true"></div>
+    <script src="./javascript/theme.js"></script>
     <script src="./javascript/directory.js"></script>
     <script src="./javascript/dynamicCursor.js"></script>
     <script src="./javascript/search.js"></script>

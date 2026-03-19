@@ -23,6 +23,20 @@ function normalize(str) {
   return (str || "").toLowerCase().trim();
 }
 
+function resolveImagePath(image) {
+  const img = String(image || "").trim();
+
+  if (!img) return "";
+
+  // If it's already a full URL, leave it alone
+  if (img.startsWith("http://") || img.startsWith("https://")) {
+    return img;
+  }
+
+  // Otherwise assume local image folder
+  return `./src/images/${img}`;
+}
+
 function splitTags(tagString) {
   if (Array.isArray(tagString)) {
     return tagString.map((t) => normalize(t)).filter(Boolean);
@@ -162,9 +176,7 @@ function createSpotlightCard(place) {
 
   const safeTitle = escapeHtml(place.title || "Untitled");
   const safeDescription = escapeHtml(place.short_description || "");
-  const safeImage = place.image && String(place.image).trim()
-    ? place.image.trim()
-    : "./src/PrimarySplash.png";
+  const safeImage = resolveImagePath(place.image) || "./src/images/PrimarySplash.png";
 
   const visibleTags = splitTags(place.tags).slice(0, 3);
   const placeHref = place.id

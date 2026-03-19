@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="bg-layer" aria-hidden="true"></div>
   <div id="cursor-light"></div>
 
   <header class="topbar">
@@ -38,6 +39,14 @@
         <a href="contact.html" class="btn">Contact</a>
         <a href="contribute.html" class="btn">Contribute</a>
       </nav>
+      <div class="theme-toggle-wrap">
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-track">
+            <span class="theme-toggle-thumb"></span>
+          </span>
+          <span class="theme-toggle-label">Light</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -46,6 +55,8 @@
       <p id="placeStatus" class="section-subtitle">Loading place details...</p>
     </section>
   </main>
+  <div id="themeTransition" class="theme-transition" aria-hidden="true"></div>
+  <script src="./javascript/theme.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="./javascript/place.js"></script>
   <script src="./javascript/dynamicCursor.js"></script>

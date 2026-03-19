@@ -18,10 +18,15 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "wood-fired",
+      "cozy",
+      "upscale",
+      "pizza"
+    ],
+    "review_summary": "High-end wood-fired pizza with a cozy, sophisticated atmosphere. Known for excellent service and consistency.",
+    "rating_estimate": 4.6,
+    "review_count_estimate": 1100,
     "address": "2601 76th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -30,7 +35,7 @@
     "longitude": -122.2380441,
     "website": "https://www.miopostopizza.com/",
     "phone": "(206) 232-1500",
-    "image": "",
+    "image": "mioposto.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -62,8 +67,13 @@
       "burgers"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "historic",
+      "wings",
+      "community",
+      "patio"
+    ],
+    "review_summary": "A historic \"living room\" of the island. Beloved for its \"Wings of Fire,\" outdoor patio, and dive-bar charm.",
     "rating_estimate": 4.4,
     "review_count_estimate": 1200,
     "address": "1825 72nd Ave Southeast",
@@ -74,7 +84,7 @@
     "longitude": -122.2435641,
     "website": "http://www.roanokeinnmi.com/",
     "phone": "(206) 232-0800",
-    "image": "",
+    "image": "Roankoke.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -104,10 +114,15 @@
       "korean"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "fresh",
+      "bento",
+      "authentic",
+      "sushi"
+    ],
+    "review_summary": "Praised for fresh salmon, generous bento boxes, and a welcoming family-owned feel.",
+    "rating_estimate": 4.4,
+    "review_count_estimate": 400,
     "address": "2717 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -116,7 +131,7 @@
     "longitude": -122.234064,
     "website": "sushijoa.com",
     "phone": "(206) 535-6447",
-    "image": "",
+    "image": "sushijoa.jpeg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -145,10 +160,15 @@
       "vegetarian"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "authentic",
+      "serenity",
+      "pad thai",
+      "spicy"
+    ],
+    "review_summary": "A hidden gem for authentic regional dishes like Chiang Mai Noodles. Known for its quiet, serene vibe.",
+    "rating_estimate": 4.2,
+    "review_count_estimate": 300,
     "address": "7691 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -157,7 +177,7 @@
     "longitude": -122.2353367,
     "website": "anisethaicuisine.com",
     "phone": "(206) 236-2255",
-    "image": "",
+    "image": "anisethai.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -187,10 +207,15 @@
       "japanese"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "huge portions",
+      "fast",
+      "teriyaki",
+      "value"
+    ],
+    "review_summary": "Massive portions and fast service make this the island’s go-to for comfort food.",
+    "rating_estimate": 4.8,
+    "review_count_estimate": 400,
     "address": "Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -199,7 +224,7 @@
     "longitude": -122.2357946,
     "website": "https://ordergourmetteriyaki.com/",
     "phone": "(206) 232-0580",
-    "image": "",
+    "image": "gourmetteriyaki.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -229,10 +254,15 @@
       "cocktails"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "wine flights",
+      "social",
+      "live music",
+      "cozy"
+    ],
+    "review_summary": "Known for its incredible wine selection and warm, \"Cheers-like\" hospitality. Adult-only environment.",
+    "rating_estimate": 4.8,
+    "review_count_estimate": 200,
     "address": "7605 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -241,7 +271,7 @@
     "longitude": -122.236897,
     "website": "https://barrelswinebar.com/",
     "phone": "(206) 268-0588",
-    "image": "",
+    "image": "barrels.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -275,10 +305,15 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "modern",
+      "cocktails",
+      "date night",
+      "halibut"
+    ],
+    "review_summary": "Stylish decor and creative plating. A popular spot for celebratory dinners and high-end cocktails.",
+    "rating_estimate": 4.3,
+    "review_count_estimate": 100,
     "address": "Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -287,7 +322,7 @@
     "longitude": -122.2360053,
     "website": "https://www.allister-mi.com/",
     "phone": "(206) 552-0224",
-    "image": "",
+    "image": "allister.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -319,8 +354,13 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "fusion",
+      "sliders",
+      "craft drinks",
+      "fun"
+    ],
+    "review_summary": "Fusion favorite with Hawaiian/Korean flair. Highly rated for its \"bulgogi burgers\" and friendly staff.",
     "rating_estimate": 4.6,
     "review_count_estimate": 200,
     "address": "3041 78th Ave Southeast",
@@ -331,7 +371,7 @@
     "longitude": -122.2346678,
     "website": "https://thecrawlspacegastropub.com/",
     "phone": "(206) 257-1012",
-    "image": "",
+    "image": "crawlspace.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -363,8 +403,13 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "elegant",
+      "wine",
+      "bistro",
+      "service"
+    ],
+    "review_summary": "Sophisticated European-inspired bistro. Excellent wine pairings and romantic ambiance.",
     "rating_estimate": 4.5,
     "review_count_estimate": 400,
     "address": "2441 76th Ave Southeast",
@@ -375,7 +420,7 @@
     "longitude": -122.2381758,
     "website": "https://www.viviennesbistro.com/",
     "phone": "(206) 466-6302",
-    "image": "",
+    "image": "vivians.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -403,10 +448,15 @@
       "sandwiches"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "clean eating",
+      "acai",
+      "smoothies",
+      "fresh"
+    ],
+    "review_summary": "The island’s healthy hub. Famous for acai bowls, energy balls, and gluten-free/vegan options.",
+    "rating_estimate": 4.6,
+    "review_count_estimate": 200,
     "address": "7605 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -415,7 +465,7 @@
     "longitude": -122.2366848,
     "website": "https://www.sanocafe.com/",
     "phone": "(206) 232-1533",
-    "image": "",
+    "image": "sano.jpeg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -445,10 +495,15 @@
       "vietnamese"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "flavorful",
+      "pho",
+      "friendly",
+      "comfort"
+    ],
+    "review_summary": "Family-owned and reliable. Customers highlight the flavorful broth and the \"homemade\" feel of the food.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 100,
     "address": "3033 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -457,7 +512,7 @@
     "longitude": -122.2346907,
     "website": "https://www.islandphoteriyaki.com/",
     "phone": "(206) 232-2326",
-    "image": "",
+    "image": "islandpho.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -485,8 +540,13 @@
       "sandwiches"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "fast",
+      "hearty",
+      "sandwiches",
+      "legendary"
+    ],
+    "review_summary": "Consistently top-rated for creative, massive sandwiches. The \"Thanksgetting\" is a local legend.",
     "rating_estimate": 4.5,
     "review_count_estimate": 100,
     "address": "2630 77th Ave Southeast",
@@ -497,7 +557,7 @@
     "longitude": -122.2345409,
     "website": "https://www.valhallasandwiches.com/",
     "phone": "(206) 535-6126",
-    "image": "",
+    "image": "valhalla.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -525,8 +585,13 @@
       "poke"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "fresh",
+      "poke",
+      "customizable",
+      "healthy"
+    ],
+    "review_summary": "Fresh, customizable bowls. Praised for clean ingredients and quick turnaround for takeout.",
     "rating_estimate": 4.1,
     "review_count_estimate": 50,
     "address": "2758 78th Ave Southeast",
@@ -537,7 +602,7 @@
     "longitude": -122.2360488,
     "website": "https://justpoke.com/locations/mercerisland/",
     "phone": "(206) 466-1057",
-    "image": "",
+    "image": "justpoke.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -567,10 +632,15 @@
       "delivery"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "delivery",
+      "slices",
+      "reliable",
+      "fireplace"
+    ],
+    "review_summary": "Reliable neighborhood delivery and slice counter. The modern interior with a fireplace is a plus.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 300,
     "address": "3077 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -579,7 +649,7 @@
     "longitude": -122.2338837,
     "website": "https://www.pagliacci.com/locations/mercer-island",
     "phone": "(206) 726-1717",
-    "image": "",
+    "image": "pags.jpeg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -608,10 +678,16 @@
       "burgers"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "fast",
+      "convenient",
+      "standard",
+      "fries",
+      "burgers"
+    ],
+    "review_summary": "Mixed reviews focusing on convenience and order accuracy vs. slower service during peak times.",
+    "rating_estimate": 3.4,
+    "review_count_estimate": 200,
     "address": "2807 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -620,7 +696,7 @@
     "longitude": -122.2345236,
     "website": "https://www.mcdonalds.com/us/en-us/location/wa/mercer-island/2807-78th-st-se/11027.html",
     "phone": "(206) 232-9175",
-    "image": "",
+    "image": "macdonalds.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -648,10 +724,15 @@
       "sandwiches"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "gluten-free",
+      "quick",
+      "quiet",
+      "customizable"
+    ],
+    "review_summary": "A reliable stop for quick lunches; unique for offering gluten-free buns and a quiet atmosphere for a fast-food spot.",
+    "rating_estimate": 3.6,
+    "review_count_estimate": 200,
     "address": "7679 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -660,7 +741,7 @@
     "longitude": -122.2356083,
     "website": "https://restaurants.subway.com/united-states/wa/mercer-island/7679-se-27th",
     "phone": "(206) 906-9344",
-    "image": "",
+    "image": "subway.png",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -690,9 +771,13 @@
       "delivery"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.6,
+    "review_keywords": [
+      "generous toppings",
+      "fast delivery",
+      "local favorite"
+    ],
+    "review_summary": "Highly rated for its unique crust and generous toppings; known for very fast and friendly local delivery.",
+    "rating_estimate": 4.7,
     "review_count_estimate": 200,
     "address": "8425 Southeast 68th Street",
     "city": "Mercer Island",
@@ -702,7 +787,7 @@
     "longitude": -122.2252689,
     "website": "https://saharapizza.com/locations/",
     "phone": "(206) 232-9800",
-    "image": "",
+    "image": "saharas.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -731,9 +816,14 @@
       "japanese"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.5,
+    "review_keywords": [
+      "authentic",
+      "omakase",
+      "fresh",
+      "cozy"
+    ],
+    "review_summary": "Upscale yet cozy Japanese dining; renowned for high-quality omakase and fresh sushi specials.",
+    "rating_estimate": 4.6,
     "review_count_estimate": 100,
     "address": "8451 Southeast 68th Street",
     "city": "Mercer Island",
@@ -743,7 +833,7 @@
     "longitude": -122.2247076,
     "website": "https://www.yuzenjapanese.com/",
     "phone": "(206) 275-3310",
-    "image": "",
+    "image": "yuzen.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -771,9 +861,14 @@
       "mexican"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.3,
+    "review_keywords": [
+      "festive",
+      "hearty",
+      "family-friendly",
+      "murals"
+    ],
+    "review_summary": "Festive family-style Mexican restaurant known for large murals, hearty portions, and a welcoming fireplace.",
+    "rating_estimate": 4.4,
     "review_count_estimate": 300,
     "address": "8451 Southeast 68th Street",
     "city": "Mercer Island",
@@ -783,7 +878,7 @@
     "longitude": -122.2247412,
     "website": "https://www.rivieramayawa.com/",
     "phone": "(206) 232-2326",
-    "image": "",
+    "image": "riveira.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -812,10 +907,15 @@
       "craft-beer"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "retro",
+      "grass-fed",
+      "organic",
+      "milkshakes"
+    ],
+    "review_summary": "Retro-style burger joint using grass-fed beef; highly praised for its organic ingredients and hand-spun shakes.",
+    "rating_estimate": 4.3,
+    "review_count_estimate": 100,
     "address": "2411 76th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -824,7 +924,7 @@
     "longitude": -122.238162,
     "website": "https://www.hapsburgers.com/",
     "phone": "(206) 275-2200",
-    "image": "",
+    "image": "haps.png",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -854,9 +954,14 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.0,
+    "review_keywords": [
+      "fast",
+      "drive-thru",
+      "commuter",
+      "reliable"
+    ],
+    "review_summary": "Efficient commuter hub near the highway; known for a fast drive-thru and consistent service during the morning rush.",
+    "rating_estimate": 4.1,
     "review_count_estimate": 500,
     "address": "7620 Southeast 27th Street",
     "city": "Mercer Island",
@@ -866,7 +971,7 @@
     "longitude": -122.2370739,
     "website": "",
     "phone": "",
-    "image": "",
+    "image": "starbucksn.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -893,9 +998,14 @@
       "cafe"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.5,
+    "review_keywords": [
+      "neighborhood",
+      "friendly",
+      "quiet",
+      "relaxed"
+    ],
+    "review_summary": "A more relaxed neighborhood spot; praised for its friendly staff and being a quieter place to work or chat.",
+    "rating_estimate": 4.0,
     "review_count_estimate": 50,
     "address": "8415 Southeast 68th Street",
     "city": "Mercer Island",
@@ -905,7 +1015,7 @@
     "longitude": -122.2260661,
     "website": "",
     "phone": "",
-    "image": "",
+    "image": "starbuckss.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -934,10 +1044,15 @@
       "bagels"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "fresh bagels",
+      "breakfast",
+      "busy",
+      "convenient"
+    ],
+    "review_summary": "Popular breakfast destination; praised for fresh bagels but occasionally noted for long lines on weekend mornings.",
+    "rating_estimate": 3.8,
+    "review_count_estimate": 300,
     "address": "7808 Southeast 28th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -946,7 +1061,7 @@
     "longitude": -122.2329413,
     "website": "",
     "phone": "(206) 232-8539",
-    "image": "",
+    "image": "einstein.jpeg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -976,10 +1091,15 @@
       "french"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "french",
+      "chic",
+      "authentic",
+      "pastries"
+    ],
+    "review_summary": "Authentic French bakery and wine bar; famous for its kouign-amann and chic, modern Parisian atmosphere.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 400,
     "address": "3020 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -988,7 +1108,7 @@
     "longitude": -122.2327738,
     "website": "https://lexperienceparis.com/",
     "phone": "(206) 535-8128",
-    "image": "",
+    "image": "l’experience.jpeg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1018,10 +1138,15 @@
       "french"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "artisan",
+      "elegant",
+      "croissants",
+      "sophisticated"
+    ],
+    "review_summary": "Boutique artisan bakery; reviewers rave about the 'freakishly symmetrical' croissants and sophisticated decor.",
+    "rating_estimate": 4.7,
+    "review_count_estimate": 300,
     "address": "7605 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -1030,7 +1155,7 @@
     "longitude": -122.2366098,
     "website": "https://www.lafettemi.com/",
     "phone": "(206) 232-2005",
-    "image": "",
+    "image": "lefette.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1060,9 +1185,14 @@
       "tea"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.1,
+    "review_keywords": [
+      "boba",
+      "ice cream",
+      "family-friendly",
+      "treats"
+    ],
+    "review_summary": "A family favorite for treats; praised for high-quality boba pearls and a rotating selection of unique ice cream.",
+    "rating_estimate": 4.6,
     "review_count_estimate": 50,
     "address": "2900 78th Ave Southeast",
     "city": "Mercer Island",
@@ -1072,7 +1202,7 @@
     "longitude": -122.2334739,
     "website": "https://www.hubboba.com/",
     "phone": "(206) 466-2679",
-    "image": "",
+    "image": "hub.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1103,9 +1233,14 @@
       "pasta"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 5.0,
+    "review_keywords": [
+      "nostalgic",
+      "traditional",
+      "handmade",
+      "specialty"
+    ],
+    "review_summary": "A local treasure for old-world Jewish and Italian baking; loved for its nostalgic, 'made-from-scratch' quality.",
+    "rating_estimate": 4.9,
     "review_count_estimate": 50,
     "address": "2711 76th Ave Southeast",
     "city": "Mercer Island",
@@ -1115,7 +1250,7 @@
     "longitude": -122.2380702,
     "website": "",
     "phone": "(206) 465-4122",
-    "image": "",
+    "image": "miriams.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1144,10 +1279,15 @@
       "pastries"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "artisan bread",
+      "quality",
+      "community",
+      "sandwiches"
+    ],
+    "review_summary": "Highly regarded for artisan breads and sandwiches; noted for its strong community feel and quality ingredients.",
+    "rating_estimate": 4.4,
+    "review_count_estimate": 200,
     "address": "3051 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -1156,7 +1296,7 @@
     "longitude": -122.2347012,
     "website": "https://macrinabakery.com/",
     "phone": "(206) 232-3531",
-    "image": "",
+    "image": "macrina.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1184,8 +1324,13 @@
       "chocolate"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "exquisite",
+      "truffles",
+      "giftable",
+      "handmade"
+    ],
+    "review_summary": "Third-generation family chocolatier; known for exquisite handmade truffles and beautiful gift packaging.",
     "rating_estimate": 4.8,
     "review_count_estimate": 100,
     "address": "8451 Southeast 68th Street",
@@ -1196,7 +1341,7 @@
     "longitude": -122.2245266,
     "website": "https://ohchocolate.com/",
     "phone": "(206) 232-4974",
-    "image": "",
+    "image": "oh!.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1223,9 +1368,14 @@
       "pharmacy"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.3,
+    "review_keywords": [
+      "stocked",
+      "reliable",
+      "late-night",
+      "fresh sushi"
+    ],
+    "review_summary": "Well-stocked grocery anchor; praised for its fresh sushi station and being a reliable late-night resource.",
+    "rating_estimate": 4.0,
     "review_count_estimate": 500,
     "address": "7823 Southeast 28th Street",
     "city": "Mercer Island",
@@ -1235,7 +1385,7 @@
     "longitude": -122.2328401,
     "website": "",
     "phone": "",
-    "image": "",
+    "image": "qfcn.jpg",
     "popularity_score": null,
     "price_level": "",
     "family_friendly": false,
@@ -1261,8 +1411,13 @@
       "grocery"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "community",
+      "top pot",
+      "friendly",
+      "grocery"
+    ],
+    "review_summary": "Known as the community-centric branch; praised for the Top Pot Doughnut counter and helpful long-term staff.",
     "rating_estimate": 4.3,
     "review_count_estimate": 200,
     "address": "8421 Southeast 68th Street",
@@ -1299,8 +1454,13 @@
       "grocery"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "the cookie",
+      "premium",
+      "prepared foods",
+      "gourmet"
+    ],
+    "review_summary": "Premium grocery experience; famous for 'The Cookie' and high-quality prepared foods and floral department.",
     "rating_estimate": 4.3,
     "review_count_estimate": 400,
     "address": "2755 77th Avenue Southeast",
@@ -1341,8 +1501,13 @@
       "gifts"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "institution",
+      "cozy",
+      "knowledgeable",
+      "bookstore"
+    ],
+    "review_summary": "An Island institution; praised for a warm atmosphere, knowledgeable staff, and a fantastic selection for kids.",
     "rating_estimate": 4.8,
     "review_count_estimate": 300,
     "address": "3014 78th Avenue Southeast",
@@ -1383,8 +1548,13 @@
       "pets"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "pet health",
+      "clean",
+      "knowledgeable",
+      "local"
+    ],
+    "review_summary": "Clean and well-organized; staff are highly educated on pet nutrition and proactive in helping solve pet issues.",
     "rating_estimate": 4.7,
     "review_count_estimate": 100,
     "address": "2441 76th Ave Southeast",
@@ -1425,8 +1595,13 @@
       "pets"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "premium",
+      "natural",
+      "helpful",
+      "single-ingredient"
+    ],
+    "review_summary": "Exceptional customer service; beloved for single-ingredient treats and a genuine investment in local pet wellness.",
     "rating_estimate": 4.5,
     "review_count_estimate": 50,
     "address": "3037 78th Avenue Southeast",
@@ -1464,8 +1639,13 @@
       "retail"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "gallery",
+      "artifacts",
+      "sophisticated",
+      "unique"
+    ],
+    "review_summary": "Sophisticated gallery showcasing Northwest artists and global artifacts; praised for its curated, unique selection.",
     "rating_estimate": 4.5,
     "review_count_estimate": 25,
     "address": "7605 Southeast 27th Street",
@@ -1507,8 +1687,13 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "giftable",
+      "home decor",
+      "charming",
+      "local"
+    ],
+    "review_summary": "Charming boutique for home decor and gifts; noted for beautiful displays and being a great spot for local gifts.",
     "rating_estimate": 4.4,
     "review_count_estimate": 25,
     "address": "3028 78th Avenue Southeast",
@@ -1548,8 +1733,13 @@
       "flowers"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "exquisite",
+      "reliable",
+      "floral",
+      "chic"
+    ],
+    "review_summary": "Renowned for 'wow-factor' arrangements and excellent delivery service; highly reliable for last-minute sympathy or celebration orders.",
     "rating_estimate": 4.7,
     "review_count_estimate": 100,
     "address": "3006 78th Avenue Southeast",
@@ -1588,8 +1778,13 @@
       "jewelry"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "custom design",
+      "honest",
+      "jewelry repair",
+      "family-owned"
+    ],
+    "review_summary": "Family-owned with a focus on high-quality repair and custom design; praised for being honest and community-oriented.",
     "rating_estimate": null,
     "review_count_estimate": null,
     "address": "8425 Southeast 68th Street",
@@ -1629,8 +1824,13 @@
       "glasses"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "professional",
+      "high-end frames",
+      "thorough",
+      "eye care"
+    ],
+    "review_summary": "Highly professional staff; known for a great selection of high-end frames and very thorough eye examinations.",
     "rating_estimate": 5.0,
     "review_count_estimate": 500,
     "address": "7800 Southeast 27th Street",
@@ -1670,8 +1870,13 @@
       "paint"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "helpful staff",
+      "diy",
+      "neighborhood",
+      "hardware"
+    ],
+    "review_summary": "Quintessential neighborhood hardware store; staff are frequently cited for being extremely helpful with DIY advice.",
     "rating_estimate": 4.3,
     "review_count_estimate": 100,
     "address": "7707 Southeast 27th Street",
@@ -1710,8 +1915,13 @@
       "pharmacy"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "convenient",
+      "pharmacy",
+      "accessible",
+      "central"
+    ],
+    "review_summary": "Convenient location but reviews often note long pharmacy wait times during peak hours and varying stock levels.",
     "rating_estimate": 1.5,
     "review_count_estimate": 200,
     "address": "Southeast 27th Street",
@@ -1750,10 +1960,15 @@
       "women-s-health"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "trendy",
+      "personalized",
+      "versatile",
+      "boutique"
+    ],
+    "review_summary": "Trendy boutique with a personal touch; the owner Dana is praised for helping customers build versatile, high-quality outfits.",
+    "rating_estimate": 4.8,
+    "review_count_estimate": 100,
     "address": "2727 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -1790,10 +2005,15 @@
       "art-gallery"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "local artists",
+      "cooperative",
+      "community art",
+      "gallery"
+    ],
+    "review_summary": "Artist-run cooperative showing diverse local talent; appreciated for its rotating exhibits and support of Island artists.",
+    "rating_estimate": 4.4,
+    "review_count_estimate": 50,
     "address": "2836 78th Ave Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -1831,8 +2051,13 @@
       "detailing"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "car wash",
+      "24/7",
+      "self-serve",
+      "green energy"
+    ],
+    "review_summary": "Reliable car wash with 24/7 self-serve bays; praised for the high-quality automatic wash and green energy practices.",
     "rating_estimate": 3.9,
     "review_count_estimate": 100,
     "address": "2730 80th Avenue Southeast",
@@ -1872,10 +2097,15 @@
       "skincare"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "subtle results",
+      "professional",
+      "high-end",
+      "thorough"
+    ],
+    "review_summary": "Highly specialized oculoplastic surgery clinic; patients rave about 'subtle but life-changing' results and the professional, high-end environment.",
+    "rating_estimate": 4.9,
+    "review_count_estimate": 100,
     "address": "7800 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -1913,8 +2143,13 @@
       "wine"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "welcoming",
+      "beginner-friendly",
+      "high energy",
+      "technical"
+    ],
+    "review_summary": "Versatile training facility housing kickboxing and HIIT; known for welcoming instructors who help beginners feel at ease while providing a great workout.",
     "rating_estimate": 4.8,
     "review_count_estimate": 100,
     "address": "7605 Southeast 27th Street",
@@ -1954,8 +2189,13 @@
       "personal-training"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "kind staff",
+      "slow-paced intro",
+      "supportive",
+      "boutique"
+    ],
+    "review_summary": "Focused boutique studio; praised for staff who are 'helpful and kind' and an introductory class that is perfect for those new to the practice.",
     "rating_estimate": 5.0,
     "review_count_estimate": 25,
     "address": "8451 Southeast 68th Street",
@@ -1994,10 +2234,15 @@
       "pilates"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "motivating",
+      "intense",
+      "structured",
+      "group fitness"
+    ],
+    "review_summary": "High-intensity group workouts; members frequently mention the motivating coaches and the challenging but rewarding 'Orange 60' sessions.",
+    "rating_estimate": 4.7,
+    "review_count_estimate": 50,
     "address": "303 80th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -2033,8 +2278,13 @@
       "wellness"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "personalized",
+      "data-driven",
+      "golf-specific",
+      "mobility"
+    ],
+    "review_summary": "Highly specialized facility for golfers; lauded for helping players increase clubhead speed and mobility through personalized, data-driven programs.",
     "rating_estimate": 4.9,
     "review_count_estimate": 200,
     "address": "2601 76th Avenue Southeast",
@@ -2073,8 +2323,13 @@
       "golf-fitness"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "recovery",
+      "flexible",
+      "professional",
+      "one-on-one"
+    ],
+    "review_summary": "One-on-one assisted stretching; clients appreciate the specialized 'flexologists' who help with recovery and increasing general flexibility.",
     "rating_estimate": 5.0,
     "review_count_estimate": 50,
     "address": "2448 76th Avenue Southeast",
@@ -2114,8 +2369,13 @@
       "mobility"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "diverse classes",
+      "hot yoga",
+      "modern",
+      "massive community"
+    ],
+    "review_summary": "Expansive yoga studio with six diverse class types; highly rated for its 'Y6 Signature Hot' classes and its modern, welcoming vibe.",
     "rating_estimate": 5.0,
     "review_count_estimate": 200,
     "address": "2558 76th Ave Southeast",
@@ -2154,8 +2414,13 @@
       "yoga"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "reformer-based",
+      "equipment-focused",
+      "busy",
+      "structured"
+    ],
+    "review_summary": "Popular reformer-based studio; while the instructors and equipment are praised, some reviews mention difficulty with the booking system and strict policies.",
     "rating_estimate": 4.9,
     "review_count_estimate": 300,
     "address": "2601 76th Avenue Southeast",
@@ -2195,8 +2460,13 @@
       "reformer"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "positive environment",
+      "community-focused",
+      "personal growth",
+      "skilled staff"
+    ],
+    "review_summary": "Long-standing community pillar; renowned for its positive environment that focuses on personal development and growth for students of all ages.",
     "rating_estimate": 4.7,
     "review_count_estimate": 150,
     "address": "2601 76th Avenue Southeast",
@@ -2237,8 +2507,13 @@
       "self-defense"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "family-feel",
+      "high-energy",
+      "discipline",
+      "fun"
+    ],
+    "review_summary": "An intimate, high-energy school; sensei is praised for being 'strict but fair' and creating a family-like atmosphere where kids love to learn.",
     "rating_estimate": 4.9,
     "review_count_estimate": 100,
     "address": "77th Avenue Southeast",
@@ -2277,8 +2552,13 @@
       "martial-arts"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "evidence-based",
+      "patient education",
+      "rehab",
+      "knowledgeable"
+    ],
+    "review_summary": "Evidence-based chiropractic care; patients love the team's focus on patient education and corrective exercises that keep them healthy long-term.",
     "rating_estimate": 5.0,
     "review_count_estimate": 50,
     "address": "7858 Southeast 28th Street",
@@ -2317,8 +2597,13 @@
       "chiropractic"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "relaxing",
+      "scalp health",
+      "relief",
+      "luxurious"
+    ],
+    "review_summary": "Specialized scalp and hair health destination; praised for providing 'real relief' from stress and scalp concerns in a relaxing, luxury setting.",
     "rating_estimate": 5.0,
     "review_count_estimate": 100,
     "address": "2630 77th Ave Southeast",
@@ -2358,8 +2643,13 @@
       "relaxation"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "talented",
+      "eco-conscious",
+      "relaxing",
+      "consultative"
+    ],
+    "review_summary": "Full-service salon and barbershop; highly regarded for its talented stylists, relaxing scalp massages, and use of eco-conscious products.",
     "rating_estimate": 5.0,
     "review_count_estimate": 100,
     "address": "7650 Southeast 27th Street",
@@ -2398,8 +2688,13 @@
       "salon"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "clean",
+      "detailed",
+      "long-lasting",
+      "peaceful"
+    ],
+    "review_summary": "Quiet and detail-oriented nail boutique; known for its cleanliness, long-lasting gel manicures, and a peaceful, no-rush atmosphere.",
     "rating_estimate": 4.7,
     "review_count_estimate": 50,
     "address": "7900 Southeast 28th Street",
@@ -2439,8 +2734,13 @@
       "haircuts"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "compassionate",
+      "thorough",
+      "patient",
+      "professional"
+    ],
+    "review_summary": "Compassionate animal care center; praised for thorough exams and a staff that treats every pet with a high degree of patience and kindness.",
     "rating_estimate": 4.7,
     "review_count_estimate": 50,
     "address": "7900 Southeast 28th Street",
@@ -2480,8 +2780,13 @@
       "manicures"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "clean",
+      "detailed",
+      "long-lasting",
+      "peaceful"
+    ],
+    "review_summary": "A quiet and professional boutique known for its clean environment and long-lasting gel manicures.",
     "rating_estimate": 4.8,
     "review_count_estimate": 100,
     "address": "7650 Southeast 27th Street",
@@ -2516,8 +2821,13 @@
     "short_description": "",
     "tags": [],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "compassionate",
+      "thorough",
+      "fear-free",
+      "professional"
+    ],
+    "review_summary": "Highly recommended for their compassionate 'fear-free' approach and thorough, top-notch pet care.",
     "rating_estimate": 4.8,
     "review_count_estimate": 100,
     "address": "2448 76th Ave Southeast",
@@ -2557,8 +2867,13 @@
       "haircuts"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "convenient",
+      "quick",
+      "affordable",
+      "variable"
+    ],
+    "review_summary": "Convenient for quick and simple cuts, though service quality is noted to vary significantly by stylist.",
     "rating_estimate": 4.3,
     "review_count_estimate": 300,
     "address": "7808 Southeast 28th Street",
@@ -2599,10 +2914,15 @@
       "massage"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "professional",
+      "relaxing",
+      "experienced",
+      "sanctuary"
+    ],
+    "review_summary": "A local sanctuary known for its experienced independent stylists and a positive, professional atmosphere.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 100,
     "address": "7810 Southeast 30th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -2640,10 +2960,15 @@
       "wellness-items"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "24-hour",
+      "accessible",
+      "pharmacy",
+      "central"
+    ],
+    "review_summary": "A 24-hour resource for essentials and prescriptions; however, users frequently mention long pharmacy lines.",
+    "rating_estimate": 3.2,
+    "review_count_estimate": 200,
     "address": "3023 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -2684,8 +3009,13 @@
       "veterinary"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "empathetic",
+      "collaborative",
+      "thorough",
+      "caring"
+    ],
+    "review_summary": "Praised for deeply collaborative care and a staff that is exceptionally empathetic during difficult times.",
     "rating_estimate": 4.6,
     "review_count_estimate": 100,
     "address": "7803 Southeast 27th Street",
@@ -2724,8 +3054,13 @@
       "veterinary"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "cat-only",
+      "low-stress",
+      "quiet",
+      "expert"
+    ],
+    "review_summary": "A specialized feline-only practice; beloved for its calm, quiet, and gold-certified cat-friendly environment.",
     "rating_estimate": 4.9,
     "review_count_estimate": 300,
     "address": "3024 78th Avenue Southeast",
@@ -2767,10 +3102,15 @@
       "veterinary"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "holistic",
+      "compassionate",
+      "natural",
+      "priority"
+    ],
+    "review_summary": "Ranked highly for its balanced holistic and western medicine approach; known for practical, compassionate care.",
+    "rating_estimate": 4.8,
+    "review_count_estimate": 100,
     "address": "2630 77th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -2808,8 +3148,13 @@
       "cosmetic"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "precision",
+      "kind",
+      "welcoming",
+      "anxiety-friendly"
+    ],
+    "review_summary": "Sets a 'gold standard' for precision and kindness; noted for helping patients with high dental anxiety.",
     "rating_estimate": 4.8,
     "review_count_estimate": 100,
     "address": "3236 78th Ave Southeast",
@@ -2848,8 +3193,13 @@
       "dental"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "professional",
+      "efficient",
+      "skilled",
+      "patient-centered"
+    ],
+    "review_summary": "Highly skilled team with a patient-centered culture; praised for clear communication and efficient care.",
     "rating_estimate": 4.9,
     "review_count_estimate": 200,
     "address": "2955 80th Ave Southeast",
@@ -2889,8 +3239,13 @@
       "skincare"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "bedside manner",
+      "informative",
+      "approachable",
+      "humorous"
+    ],
+    "review_summary": "Led by Dr. Brenda Newman; patients appreciate her strong bedside manner and informative, approachable style.",
     "rating_estimate": 4.6,
     "review_count_estimate": 200,
     "address": "2835 82nd Ave Southeast",
@@ -2929,8 +3284,13 @@
       "primary-care"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "reliable",
+      "professional",
+      "safe",
+      "systematic"
+    ],
+    "review_summary": "A large, reliable primary care hub; ratings reflect high patient satisfaction with nurse communication and safety.",
     "rating_estimate": 4.4,
     "review_count_estimate": 100,
     "address": "3236 78th Ave Southeast",
@@ -2970,8 +3330,13 @@
       "children"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "top doctors",
+      "professional",
+      "family-focused",
+      "team-oriented"
+    ],
+    "review_summary": "Highly regarded for its 'top doctors' and supportive team; noted as a busy, high-quality clinic for families.",
     "rating_estimate": 4.0,
     "review_count_estimate": 50,
     "address": "9675 Southeast 36th Street",
@@ -3011,8 +3376,13 @@
       "braces"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "personable",
+      "informative",
+      "professional",
+      "friendly"
+    ],
+    "review_summary": "Run by the 'Chorak Squad'; known for being incredibly personable, helpful, and informative for both kids and parents.",
     "rating_estimate": 4.7,
     "review_count_estimate": 50,
     "address": "3022 78th Ave Southeast",
@@ -3052,8 +3422,13 @@
       "rehabilitation"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "personalized",
+      "multidisciplinary",
+      "quality",
+      "specialized"
+    ],
+    "review_summary": "A multidisciplinary health center praised for its personalized acupuncture, chiropractic, and massage services.",
     "rating_estimate": 4.5,
     "review_count_estimate": 25,
     "address": "7605 Southeast 27th Street",
@@ -3092,9 +3467,14 @@
       "optometry"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 5.0,
+    "review_keywords": [
+      "accessible",
+      "friendly",
+      "no-nonsense",
+      "expert"
+    ],
+    "review_summary": "Highly rated for accessible and efficient service; customers frequently praise the friendly staff and lack of high-pressure sales.",
+    "rating_estimate": 4.8,
     "review_count_estimate": 500,
     "address": "7800 Southeast 27th Street",
     "city": "Mercer Island",
@@ -3132,9 +3512,14 @@
       "chiropractic"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.8,
+    "review_keywords": [
+      "personalized",
+      "welcoming",
+      "holistic",
+      "professional"
+    ],
+    "review_summary": "Renowned for a personalized, whole-body wellness approach; patients appreciate the welcoming environment and advanced techniques.",
+    "rating_estimate": 4.9,
     "review_count_estimate": 200,
     "address": "2825 80th Ave Southeast",
     "city": "Mercer Island",
@@ -3172,10 +3557,15 @@
       "podiatry"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "specialized",
+      "thorough",
+      "patient education",
+      "sports medicine"
+    ],
+    "review_summary": "Specialized podiatry clinic known for detailed patient education and effective treatment plans for sports-related foot injuries.",
+    "rating_estimate": 4.7,
+    "review_count_estimate": 50,
     "address": "8015 Southeast 28th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3212,9 +3602,14 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.1,
+    "review_keywords": [
+      "central",
+      "corporate",
+      "variable service",
+      "traditional"
+    ],
+    "review_summary": "Central location with a long history on the Island; however, customers often cite frustrations with corporate service speed and unhelpful phone support.",
+    "rating_estimate": 2.1,
     "review_count_estimate": 25,
     "address": "2737 78th Avenue Southeast",
     "city": "Mercer Island",
@@ -3253,9 +3648,14 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 3.2,
+    "review_keywords": [
+      "convenient",
+      "mobile-first",
+      "professional",
+      "busy"
+    ],
+    "review_summary": "Popular for its robust mobile app and extensive ATM network; local staff are often noted for being helpful despite busy peak hours.",
+    "rating_estimate": 3.8,
     "review_count_estimate": 25,
     "address": "7900 Southeast 28th Street",
     "city": "Mercer Island",
@@ -3293,10 +3693,15 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "full-service",
+      "loans",
+      "established",
+      "mixed reviews"
+    ],
+    "review_summary": "Full-service branch with high loan amounts available; reviews are mixed between long-term customer loyalty and frustration with phone wait times.",
+    "rating_estimate": 3.5,
+    "review_count_estimate": 100,
     "address": "3001 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3333,10 +3738,15 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "digital",
+      "central",
+      "inclusive",
+      "corporate"
+    ],
+    "review_summary": "Noted for a strong digital platform and inclusive local work environment; sentiment is split regarding fraud protection efficiency and fee structures.",
+    "rating_estimate": 3.2,
+    "review_count_estimate": 50,
     "address": "2830 80th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3373,10 +3783,15 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "community-focused",
+      "friendly",
+      "helpful",
+      "local feel"
+    ],
+    "review_summary": "Appreciated for its 'human' touch and community involvement; customers love the friendly tellers and proactive problem-solving.",
+    "rating_estimate": 4.2,
+    "review_count_estimate": 50,
     "address": "7803 Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3413,10 +3828,15 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "stable",
+      "business-friendly",
+      "professional",
+      "relationship-based"
+    ],
+    "review_summary": "Consistently earns five-star ratings for financial stability; local business owners praise their relationship-based lending approach.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 50,
     "address": "2918 78th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3453,10 +3873,15 @@
       "banking"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "saturday hours",
+      "helpful staff",
+      "accessible",
+      "central"
+    ],
+    "review_summary": "One of the few branches with Saturday hours; reviews highlight helpful in-person service but some frustrations with automated security holds.",
+    "rating_estimate": 3.1,
+    "review_count_estimate": 100,
     "address": "2731 77th Avenue Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3493,10 +3918,15 @@
       "retirement"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "personalized",
+      "accessible",
+      "face-to-face",
+      "planning"
+    ],
+    "review_summary": "Known for a highly personalized, face-to-face approach to financial planning; multiple advisors on the Island receive high marks for accessibility.",
+    "rating_estimate": 4.8,
+    "review_count_estimate": 50,
     "address": "Southeast 27th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3532,9 +3962,14 @@
       "wealth-management"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.5,
+    "review_keywords": [
+      "expert",
+      "private wealth",
+      "high-net-worth",
+      "reputable"
+    ],
+    "review_summary": "Top-tier private wealth management team; recognized for expertise in serving high-net-worth families with complex financial needs.",
+    "rating_estimate": 4.9,
     "review_count_estimate": 10,
     "address": "2630 77th Ave Southeast",
     "city": "Mercer Island",
@@ -3572,9 +4007,14 @@
       "property-management"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 4.8,
+    "review_keywords": [
+      "neighborly",
+      "expert",
+      "rooted",
+      "professional"
+    ],
+    "review_summary": "Deeply rooted in the community with a reputation for neighborly support and high-quality local real estate expertise.",
+    "rating_estimate": 4.7,
     "review_count_estimate": 15,
     "address": "2737 77th Ave Southeast",
     "city": "Mercer Island",
@@ -3611,9 +4051,14 @@
       "real-estate"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": 5.0,
+    "review_keywords": [
+      "transparent",
+      "data-driven",
+      "community-focused",
+      "reliable"
+    ],
+    "review_summary": "Strong focus on local market data and community safety; highly rated for being transparent and headed in the right direction.",
+    "rating_estimate": 4.6,
     "review_count_estimate": 25,
     "address": "7853 Southeast 27th Street",
     "city": "Mercer Island",
@@ -3652,10 +4097,15 @@
       "real-estate"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "waterfront experts",
+      "experienced",
+      "professional",
+      "established"
+    ],
+    "review_summary": "Long-standing office specializing in high-end waterfront and new construction properties on the Island.",
+    "rating_estimate": 4.5,
+    "review_count_estimate": 100,
     "address": "128 78th Ave Southeast",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3691,8 +4141,13 @@
       "interior-design"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "detail-oriented",
+      "professional",
+      "modern luxury",
+      "collaborative"
+    ],
+    "review_summary": "Highly professional team known for a detail-oriented and collaborative approach to high-end residential remodels.",
     "rating_estimate": 4.6,
     "review_count_estimate": 25,
     "address": "7650 Southeast 27th Street",
@@ -3731,8 +4186,13 @@
       "legal"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "expert",
+      "real estate law",
+      "construction defect",
+      "client-focused"
+    ],
+    "review_summary": "Specializes in real estate and construction defect law; praised for aggressive representation and a focus on client education.",
     "rating_estimate": 3.4,
     "review_count_estimate": 25,
     "address": "7525 Southeast 24th Street",
@@ -3771,8 +4231,13 @@
       "legal"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "meticulous",
+      "ethical",
+      "subrogation expert",
+      "diligent"
+    ],
+    "review_summary": "Respected firm focusing on insurance subrogation and complex litigation; noted for meticulous preparation and ethical standards.",
     "rating_estimate": 4.7,
     "review_count_estimate": 5,
     "address": "7525 Southeast 24th Street",
@@ -3812,10 +4277,15 @@
       "legal"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
-    "rating_estimate": null,
-    "review_count_estimate": null,
+    "review_keywords": [
+      "top-rated",
+      "communication",
+      "results-driven",
+      "approachable"
+    ],
+    "review_summary": "Top-rated legal service with a strong emphasis on results and clear communication; known for being approachable and thorough.",
+    "rating_estimate": 5.0,
+    "review_count_estimate": 10,
     "address": "9311 Southeast 36th Street",
     "city": "Mercer Island",
     "state": "Washington",
@@ -3851,8 +4321,13 @@
       "insurance"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "professional service",
+      "helpful",
+      "insurance expert",
+      "caring"
+    ],
+    "review_summary": "Boutique insurance agency praised for providing high-level professional service and genuine care for client needs.",
     "rating_estimate": 3.4,
     "review_count_estimate": 15,
     "address": "3047 78th Ave Southeast",
@@ -3890,8 +4365,13 @@
       "spa"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "professional hub",
+      "convenient",
+      "modern",
+      "welcoming"
+    ],
+    "review_summary": "Modern professional office hub; frequently cited for its convenient location and high-quality, welcoming facility management.",
     "rating_estimate": 4.4,
     "review_count_estimate": 25,
     "address": "7525 Southeast 24th Street",
@@ -3930,8 +4410,13 @@
       "printing"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "shipping hub",
+      "efficient",
+      "central",
+      "reliable"
+    ],
+    "review_summary": "High-volume shipping center; reviews highlight efficient service during busy times but occasionally note firm franchise-specific policies.",
     "rating_estimate": 3.5,
     "review_count_estimate": 225,
     "address": "7683 Southeast 27th Street",
@@ -3969,8 +4454,13 @@
       "shipping"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "po boxes",
+      "central",
+      "high-traffic",
+      "government service"
+    ],
+    "review_summary": "Central post office location; while convenient for PO boxes, users often report variable wait times and high-traffic periods.",
     "rating_estimate": 2.5,
     "review_count_estimate": 100,
     "address": "3040 78th Ave Southeast",
@@ -4009,8 +4499,13 @@
       "laundry"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "clean",
+      "professional",
+      "dry cleaning",
+      "reliable"
+    ],
+    "review_summary": "Reliable local dry cleaner; customers appreciate the clean facility and the convenience of professional garment care.",
     "rating_estimate": 4.5,
     "review_count_estimate": 10,
     "address": "8415 Southeast 68th Street",
@@ -4051,8 +4546,13 @@
       "pets"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "dog grooming",
+      "tidy results",
+      "pet lovers",
+      "friendly"
+    ],
+    "review_summary": "Beloved dog grooming spot; owners praise the staff for clearly loving dogs and providing consistently 'tidy' results.",
     "rating_estimate": 4.5,
     "review_count_estimate": 75,
     "address": "7513 Southeast 27th Street",
@@ -4090,8 +4590,13 @@
       "electrical"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "trusted expert",
+      "electrical repair",
+      "local",
+      "professional"
+    ],
+    "review_summary": "Highly rated local electricians; praised for being trusted experts who handle everything from small repairs to large remodels.",
     "rating_estimate": 5.0,
     "review_count_estimate": 5,
     "address": "2227 72nd Ave Southeast",
@@ -4129,8 +4634,13 @@
       "plumbing"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "master craftsman",
+      "punctual",
+      "quality repair",
+      "detailed"
+    ],
+    "review_summary": "Known for high-quality craftsmanship and punctuality; a go-to resource for homeowners needing detailed home repairs.",
     "rating_estimate": 5.0,
     "review_count_estimate": 50,
     "address": "7704 Southeast 34th Street",
@@ -4168,8 +4678,13 @@
       "hvac"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "hvac expert",
+      "trusted",
+      "24/7 emergency",
+      "reliable"
+    ],
+    "review_summary": "Leading local HVAC contractor with decades of experience; known for a 100% satisfaction guarantee and technical expertise.",
     "rating_estimate": 4.7,
     "review_count_estimate": 15,
     "address": "9115 Fortuna Drive",
@@ -4208,8 +4723,13 @@
       "children"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "montessori",
+      "private preschool",
+      "self-sufficient",
+      "structured"
+    ],
+    "review_summary": "Highly regarded private preschool following the Montessori method; parents value the structured and self-sufficient environment.",
     "rating_estimate": 5.0,
     "review_count_estimate": 5,
     "address": "3027 80th Ave Southeast",
@@ -4247,8 +4767,13 @@
       "preschool"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "community feel",
+      "neighborhood school",
+      "preschool",
+      "long-standing"
+    ],
+    "review_summary": "Long-standing neighborhood preschool; while praised for its community feel, some reviews highlight challenges with high turnover.",
     "rating_estimate": 4.2,
     "review_count_estimate": 10,
     "address": "Southeast 36th Street",
@@ -4286,8 +4811,13 @@
       "theater"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "skill-building",
+      "creative",
+      "confidence",
+      "engaging"
+    ],
+    "review_summary": "A cherished community asset for youth arts; praised for its high-quality productions and for building confidence in young performers.",
     "rating_estimate": 4.9,
     "review_count_estimate": 50,
     "address": "4400 86th Ave Southeast",
@@ -4325,8 +4855,13 @@
       "dance"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "elite",
+      "satisfaction",
+      "professional excellence",
+      "award-winning"
+    ],
+    "review_summary": "Award-winning studio recognized as a local leader in dance education; known for a verified 95%+ quality and satisfaction score.",
     "rating_estimate": 3.4,
     "review_count_estimate": 5,
     "address": "8635 Southeast 68th Street",
@@ -4365,8 +4900,13 @@
       "books"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "five star",
+      "systematic",
+      "community-focused",
+      "quiet"
+    ],
+    "review_summary": "Highly valued for its peaceful environment and helpful staff; consistently recognized as a 'Five Star Library' for its quality services.",
     "rating_estimate": 4.6,
     "review_count_estimate": 100,
     "address": "4400 88th Avenue Southeast",
@@ -4405,8 +4945,13 @@
       "event-spaces"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "stunning views",
+      "customizable",
+      "upscale amenities",
+      "professional staff"
+    ],
+    "review_summary": "Versatile venue with stunning views of Lake Washington; praised for its modern amenities and for being a highly customizable event space.",
     "rating_estimate": 4.6,
     "review_count_estimate": 350,
     "address": "8236 Southeast 24th Street",
@@ -4444,8 +4989,13 @@
       "community-center"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "inclusive",
+      "supportive",
+      "state-of-the-art",
+      "diverse programming"
+    ],
+    "review_summary": "Comprehensive fitness and culture hub; highly regarded for its supportive environment, newly remodeled auditorium, and inclusive community focus.",
     "rating_estimate": 4.4,
     "review_count_estimate": 50,
     "address": "3801 East Mercer Way",
@@ -4483,8 +5033,13 @@
       "after-school"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "inclusive",
+      "supportive",
+      "safe",
+      "skill-building"
+    ],
+    "review_summary": "Reliable after-school and summer resource; known for providing a safe, inclusive environment where kids can develop new skills and confidence.",
     "rating_estimate": 4.7,
     "review_count_estimate": 25,
     "address": "4120 86th Ave Southeast",
@@ -4522,8 +5077,13 @@
       "thrift"
     ],
     "seasonal_tags": [],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "organized",
+      "high-quality",
+      "community support",
+      "institution"
+    ],
+    "review_summary": "A beloved local institution; praised for its high-quality donated goods, organized layout, and for being a significant community supporter.",
     "rating_estimate": 3.9,
     "review_count_estimate": 250,
     "address": "7710 Southeast 34th Street",
@@ -4564,8 +5124,13 @@
     "seasonal_tags": [
       "seasonal"
     ],
-    "review_keywords": [],
-    "review_summary": "",
+    "review_keywords": [
+      "summer tradition",
+      "live music",
+      "local produce",
+      "family-friendly"
+    ],
+    "review_summary": "A seasonal summer tradition; lauded for its high-quality local produce, live music, and family-friendly atmosphere at Mercerdale Park.",
     "rating_estimate": 4.6,
     "review_count_estimate": 150,
     "address": "7700 SE 32nd St",

@@ -23,6 +23,20 @@ function normalize(str) {
   return (str || "").toLowerCase().trim();
 }
 
+function resolveImagePath(image) {
+  const img = String(image || "").trim();
+
+  if (!img) return "";
+
+  // If it's already a full URL, leave it alone
+  if (img.startsWith("http://") || img.startsWith("https://")) {
+    return img;
+  }
+
+  // Otherwise assume local image folder
+  return `./src/images/${img}`;
+}
+
 function formatHours(place) {
   if (place.hours && typeof place.hours === "object") {
     return [

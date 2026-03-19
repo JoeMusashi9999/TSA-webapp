@@ -14,6 +14,20 @@ function normalizeBool(value) {
   return String(value || "").toLowerCase() === "true";
 }
 
+function resolveImagePath(image) {
+  const img = String(image || "").trim();
+
+  if (!img) return "";
+
+  // If it's already a full URL, leave it alone
+  if (img.startsWith("http://") || img.startsWith("https://")) {
+    return img;
+  }
+
+  // Otherwise assume local image folder
+  return `./src/images/${img}`;
+}
+
 function formatTags(tags) {
   if (Array.isArray(tags)) return tags;
   if (!tags) return [];
@@ -80,7 +94,7 @@ function renderPlace(place) {
   const seasonalTags = formatTags(place.seasonal_tags);
   const reviewKeywords = formatTags(place.review_keywords);
 
-  const image = place.image && String(place.image).trim() ? place.image.trim() : "";
+  const image = place.image && String(place.image).trim() ? resolveImagePath(place.image) : "";
   const website = place.website && String(place.website).trim() ? place.website.trim() : "";
   const phone = place.phone && String(place.phone).trim() ? place.phone.trim() : "";
   const address = place.address && String(place.address).trim() ? place.address.trim() : "";

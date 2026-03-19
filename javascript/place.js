@@ -66,23 +66,33 @@ function initPlaceMap(place) {
 
 
 function renderHours(place) {
-  const days = [
-    ["Sunday", place.SUNDAYhours],
-    ["Monday", place.MONDAYhours],
-    ["Tuesday", place.TUESDAYhours],
-    ["Wednesday", place.WEDNESDAYhours],
-    ["Thursday", place.THURSDAYhours],
-    ["Friday", place.FRIDAYhours],
-    ["Saturday", place.SATURDAYhours],
-  ];
+  const hours = place.hours && typeof place.hours === "object"
+    ? [
+      ["Sunday", place.hours.sunday],
+      ["Monday", place.hours.monday],
+      ["Tuesday", place.hours.tuesday],
+      ["Wednesday", place.hours.wednesday],
+      ["Thursday", place.hours.thursday],
+      ["Friday", place.hours.friday],
+      ["Saturday", place.hours.saturday],
+    ]
+    : [
+      ["Sunday", place.SUNDAYhours],
+      ["Monday", place.MONDAYhours],
+      ["Tuesday", place.TUESDAYhours],
+      ["Wednesday", place.WEDNESDAYhours],
+      ["Thursday", place.THURSDAYhours],
+      ["Friday", place.FRIDAYhours],
+      ["Saturday", place.SATURDAYhours],
+    ];
 
-  return days
-    .map(([day, hours]) => {
-      if (!hours) return "";
+  return hours
+    .map(([day, value]) => {
+      if (!value) return "";
       return `
         <div class="hours-row">
           <span class="hours-day">${day}</span>
-          <span class="hours-time">${escapeHtml(hours)}</span>
+          <span class="hours-time">${escapeHtml(value)}</span>
         </div>
       `;
     })

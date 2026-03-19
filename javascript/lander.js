@@ -1,5 +1,5 @@
 //curated buisnesses!
-const SPOTLIGHT_PRIMARY = ["mi_001", "mi_014", "mi_032"];
+const SPOTLIGHT_PRIMARY = ["mi_001", "mi_028", "mi_012"];
 const SPOTLIGHT_FOOD = ["mi_001", "mi_008", "mi_021"];
 const SPOTLIGHT_COMMUNITY = ["mi_071", "mi_093", "mi_104"];
 

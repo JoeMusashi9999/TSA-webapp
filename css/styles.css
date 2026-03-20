@@ -632,13 +632,6 @@ h3 {
   color: var(--faint);
 }
 
-.footer {
-  margin-top: 26px;
-  padding-top: 18px;
-  border-top: 1px solid var(--border);
-  color: var(--faint);
-  font-size: 13px;
-}
 
 /* Splash */
 .splash {
